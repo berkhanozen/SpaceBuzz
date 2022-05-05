@@ -17,10 +17,11 @@ public class Player : MonoBehaviour {
 		}
 
 		void Update (){
-			if (Input.GetKey ("w")) {
-				anim.SetInteger ("AnimationPar", 1);
+			if (Input.GetKey(KeyCode.W)) {
+				anim.SetInteger("AnimationPar", 1);
 			}  else {
-				anim.SetInteger ("AnimationPar", 0);
+				anim.SetInteger("AnimationPar", 0);
+			
 			}
 
 			if(controller.isGrounded){
