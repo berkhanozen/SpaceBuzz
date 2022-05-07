@@ -24,7 +24,6 @@ public class TileManager : MonoBehaviour
             {
                 SpawnTile(Random.Range(0, tilePrefabs.Length));
             }
-            
         }
     }
     private void Update()
