@@ -4,9 +4,9 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class sure : MonoBehaviour
+public class Sure : MonoBehaviour
 {
-
+    public int times = 3;
     private KarakterKontrol _kontrol;
     private Animator _anim;
 
@@ -25,18 +25,18 @@ public class sure : MonoBehaviour
 
     private void Update()
     {
-        timesure.text= time.times.ToString();
+        timesure.text= times.ToString(); 
 
-        timesure.text = "Baslamasina " + time.times.ToString() + " Saniye";
+        timesure.text = "Baslamasina " + times.ToString() + " Saniye";
     }
 
     public void zamaniazalt()
     {
         _kontrol.enabled = false;
-        time.times--;
-        timesure.text = time.times.ToString();
+        times--;
+        timesure.text = times.ToString();
 
-        if (time.times == 0)
+        if (times == 0)
         {
             _kontrol.enabled = true;
             _anim.SetBool("run", true);

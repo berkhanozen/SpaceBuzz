@@ -12,7 +12,7 @@ public class EnemyManager : MonoBehaviour
 
         for (int i = 0; i < 2; i++)
         {
-            GameObject enemy = Instantiate(enemies[Random.Range(0, 3)], gameObject.transform.position + (transform.forward * enemyDistance) + (transform.right * Random.Range(-1f, 1f)), transform.rotation);
+            GameObject enemy = Instantiate(enemies[Random.Range(0, 5)], gameObject.transform.position + (transform.forward * enemyDistance) + (transform.right * Random.Range(-1.133f, 1.124f)), Quaternion.Euler(0f, 180f, 0f));
             enemyDistance += 10;
             enemy.transform.parent = gameObject.transform;
         }

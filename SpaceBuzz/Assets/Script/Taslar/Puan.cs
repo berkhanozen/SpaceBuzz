@@ -7,13 +7,15 @@ using UnityEngine.SceneManagement;
 
 public class Puan : MonoBehaviour
 {
+
+    public static int totalscore;
     [SerializeField] private TextMeshProUGUI scoretext;
 
     private void Update()
     {
-        scoretext.text = score.totalscore.ToString();
+        scoretext.text = totalscore.ToString();
 
-        scoretext.text = "Toplanan Tas: " + score.totalscore.ToString();
+        scoretext.text = "Toplanan Tas: " + totalscore.ToString();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -22,8 +24,8 @@ public class Puan : MonoBehaviour
         {
 
             Destroy(other.gameObject);
-            score.totalscore++;
-            scoretext.text = score.totalscore.ToString();
+            totalscore++;
+            scoretext.text = totalscore.ToString();
         }
     }
 }
