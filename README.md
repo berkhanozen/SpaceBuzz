@@ -53,24 +53,20 @@ Astronot Buzz, gerekli eğitimleri tamamlayıp Uzay Taşları Görevine katılma
 
 - **Backlog düzeni ve Story seçimleri**: Miro Board’da gözüken kırmızı itemler yapılacak işleri, mavi itemler yapılmakta olan görevleri ve yeşil itemler ise tamamlanmış görevleri temsil etmektedir. Ek olarak Miro Board’da bulunan Kanban’a backlog ve rejected kısımları da eklenmiştir. Oyun için düşünülen ve kullanılan assetlerin linkleri Miro Board’da tutulmaktadır.
 
-- **Daily Scrum**: Daily Scrum toplantılarının Slack Call üzerinden yapılmasına karar verilmiştir. Ekip üyeleri zamansal sebeplerden ötürü Slack Call üzerinden toplantı yapamazsa Slack grubunda mesajlaşmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/DailyScrumMeetingNotesSprint1.docx?raw=true)
+- **Daily Scrum**: Daily Scrum toplantılarının Slack Call üzerinden yapılmasına karar verilmiştir. Ekip üyeleri zamansal sebeplerden ötürü Slack Call üzerinden toplantı yapamazsa Slack grubunda mesajlaşmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint1_Documents/ScrumToplantılarıToplu.docx?raw=true)
 
 - **Sprint board update**: Sprint board screenshotları: 
-![Backlog 1](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog1.png) 
-![Backlog 2](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog2.png) 
-![Backlog 3](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog3.png)
+![Backlog 1](https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint1_Documents/backlog1.png) 
 
 - **Ürün Durumu**: Ekran görüntüleri:
-  ![Screenshot 1](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/productss1.png?raw=true)
-  ![Screenshot 2](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/productss2.png?raw=true)
+  ![Screenshot 1](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint1_Documents/product1.png?raw=true)
 
 - **Sprint Review**: 
-Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için gerekli görülmüştür. Fakat bir yandan da veritabanı form sayfası için gerekli olmamıştır. O sebeple PBI bir sonraki sprint'e aktarılmıştır. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: ......
+Alınan kararlar: Miro Board’da bulunan backlog kısmı için düzenleme yapılması gerekli görülmüştür. Bazı kısımlar tekrar görüşülerek iptal edilmiştir. O kısımlar Miro Board’da Reddedilenler (rejected) kısmına eklenmiştir. Oyuna yapılacak bazı eklemeler bir sonraki sprint’e aktarılmıştır. 
+Sprint Review Katılımcıları: Batuhan Özkan, Berkhan Özen, Fatih Şeker, Ünal Giray Ergün, Yıldız İşleyen
 
 - **Sprint Retrospective:**
-  - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır
-  - Tahmin puanları gözden geçirilmeli ve sprint planlama toplantılarında gerekli geri bildirimlerin developer'lar tarafından verildiğine emin olunmalı
-  - Unit test'ler için ayrılan efor/saat arttırılmalı 
+  - Tahmin puanları gözden geçirilmeli.
 
 -**Diğer Notlar**:
 - N/A
