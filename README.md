@@ -23,18 +23,27 @@ Astronot Buzz, gerekli eğitimleri tamamlayıp Uzay Taşları Görevine katılma
 ## Ürün Özellikleri
 
 •	Sonsuz runner ve Hyper Casual
+
 •	Koşu sırasında karakterin kaçınması gereken engellerle karşılaşma
+
 •	Koşu esnasında ödüllerle karşılaşma
+
 •	Seviyeler arası geçiş yapma
+
 •	Ana istasyonda gezinme
+
 •	Karaktere verilen görevleri tamamlama
+
 •	Her görev tamamlandığında oyuncuya ödül verme
+
 •	Market kısmında taş değişimi ve yakıt, uzay gemisi, astronot kıyafeti satın alımı yapabilme
 
 ## Hedef Kitle
 
 •	Mobil kullanıcıları
+
 •	Oyun severler
+
 •	7 – 65 yaş arası kullanıcılar
 
 ## Product Backlog URL
@@ -56,7 +65,7 @@ Astronot Buzz, gerekli eğitimleri tamamlayıp Uzay Taşları Görevine katılma
 - **Daily Scrum**: Daily Scrum toplantılarının Slack Call üzerinden yapılmasına karar verilmiştir. Ekip üyeleri zamansal sebeplerden ötürü Slack Call üzerinden toplantı yapamazsa Slack grubunda mesajlaşmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint1_Documents/ScrumToplantılarıToplu.docx?raw=true)
 
 - **Sprint board update**: Sprint board screenshotları: 
-![Backlog 1](https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint1_Documents/backlog1.png) 
+![Backlog 1](https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint1_Documents/backlog1.PNG) 
 
 - **Ürün Durumu**: Ekran görüntüleri:
   ![Screenshot 1](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint1_Documents/product1.png?raw=true)
