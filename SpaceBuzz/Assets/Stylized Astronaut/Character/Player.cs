@@ -4,7 +4,7 @@ using System.Collections;
 public class Player : MonoBehaviour {
 
 		private Animator anim;
-		private CharacterController controller;
+		private UnityEngine.CharacterController controller;
 
 		public float speed = 600.0f;
 		public float turnSpeed = 400.0f;
@@ -12,7 +12,7 @@ public class Player : MonoBehaviour {
 		public float gravity = 20.0f;
 
 		void Start () {
-			controller = GetComponent <CharacterController>();
+        controller = GetComponent<UnityEngine.CharacterController>();
 			anim = gameObject.GetComponentInChildren<Animator>();
 		}
 
