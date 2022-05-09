@@ -18,35 +18,42 @@ Space Buzz
 
 ## Ürün Açıklaması
 
-- 
+Astronot Buzz, gerekli eğitimleri tamamlayıp Uzay Taşları Görevine katılmaya hak kazanmış astronotlardan biridir. Görevi Samanyolu Galaksisini gezerek uzaylılara yakalanmadan değerli taşları toplamak ve gezegenlerde mahsur kalmış arkadaşlarını kurtarmaktır. Jüpiter gezegenindeki astronot Neil yeterli taşları toplayamadığı ve yakıt alamadığı için gezegenden ayrılamaz, görev Neil’a yakıt ya da değerli taş götürmektir. Buzz, arkadaşlarının ihtiyaçlarına göre seviye değiştirebilecektir. Arkadaşlarının yanına gidebilmesi için aracını geliştirmelidir, görevlerini tamamlandıkça seviye artar. Topladığı taşlarla ana istasyonda bulunan marketten yakıt, uzay gemisi ya da astronot kıyafeti alabilir. Eğer taşları o gezegendeki uzay gemisini almaya yetmiyorsa Buzz yakıt alarak diğer gezegenlere gidip istenilen taşları toplamaya devam etmelidir.
 
 ## Ürün Özellikleri
 
-- 
+•	Sonsuz runner ve Hyper Casual
+•	Koşu sırasında karakterin kaçınması gereken engellerle karşılaşma
+•	Koşu esnasında ödüllerle karşılaşma
+•	Seviyeler arası geçiş yapma
+•	Ana istasyonda gezinme
+•	Karaktere verilen görevleri tamamlama
+•	Her görev tamamlandığında oyuncuya ödül verme
+•	Market kısmında taş değişimi ve yakıt, uzay gemisi, astronot kıyafeti satın alımı yapabilme
 
 ## Hedef Kitle
 
-- 
+•	Mobil kullanıcıları
+•	Oyun severler
+•	7 – 65 yaş arası kullanıcılar
 
 ## Product Backlog URL
 
-[Miro Backlog Board](https://miro.com/app/board/uXjVOSSCpsI=/)
+[Miro Backlog Board](https://miro.com/app/board/uXjVO6UHj8Y=/)
 
 ---
 
 # Sprint 1
 
-- **Sprint Notları**: User Story'ler product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında hikayelerin detayları okunabilir.
+- **Sprint Notları**: Miro Board’da backloglar hazırlanmıştır. Gerekli yerlerde bazı backlogların içine maddeler eklenmiştir. Oyun senaryosu ve mekanikleri Word halinde Miro Board’da tutulmaktadır.
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
+- **Sprint içinde tamamlanması tahmin edilen puan**: 135 puan
 
-- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. 4 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 410 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 135 ile başlaması gerektiğine karar verildi.
 
-- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
+- **Backlog düzeni ve Story seçimleri**: Miro Board’da gözüken kırmızı itemler yapılacak işleri, mavi itemler yapılmakta olan görevleri ve yeşil itemler ise tamamlanmış görevleri temsil etmektedir. Ek olarak Miro Board’da bulunan Kanban’a backlog ve rejected kısımları da eklenmiştir. Oyun için düşünülen ve kullanılan assetlerin linkleri Miro Board’da tutulmaktadır.
 
-Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
-
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/DailyScrumMeetingNotesSprint1.docx?raw=true)
+- **Daily Scrum**: Daily Scrum toplantılarının Slack Call üzerinden yapılmasına karar verilmiştir. Ekip üyeleri zamansal sebeplerden ötürü Slack Call üzerinden toplantı yapamazsa Slack grubunda mesajlaşmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/DailyScrumMeetingNotesSprint1.docx?raw=true)
 
 - **Sprint board update**: Sprint board screenshotları: 
 ![Backlog 1](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog1.png) 
