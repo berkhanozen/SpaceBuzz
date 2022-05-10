@@ -5,14 +5,14 @@ using UnityEngine;
 public class EnemyManager : MonoBehaviour
 {
     public GameObject[] enemies;
-    int enemyDistance = 5;
+    int enemyDistance = 6;
 
     void Start()
     {
 
         for (int i = 0; i < 2; i++)
         {
-            GameObject enemy = Instantiate(enemies[Random.Range(0, 5)], gameObject.transform.position + (transform.forward * enemyDistance) + (transform.right * Random.Range(-1.133f, 1.124f)), Quaternion.Euler(0f, 180f, 0f));
+            GameObject enemy = Instantiate(enemies[Random.Range(0, 6)], gameObject.transform.position + (transform.forward * enemyDistance) + (transform.right * Random.Range(-1.133f, 1.124f)), Quaternion.Euler(0f, 180f, 0f));
             enemyDistance += 10;
             enemy.transform.parent = gameObject.transform;
         }
