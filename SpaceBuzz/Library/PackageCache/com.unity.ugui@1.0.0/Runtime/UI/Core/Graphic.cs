@@ -7,7 +7,6 @@ using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.Serialization;
 using UnityEngine.UI.CoroutineTween;
-using UnityEngine.Pool;
 
 namespace UnityEngine.UI
 {
@@ -24,7 +23,6 @@ namespace UnityEngine.UI
     /// <example>
     /// Below is a simple example that draws a colored quad inside the Rect Transform area.
     /// <code>
-    /// <![CDATA[
     /// using UnityEngine;
     /// using UnityEngine.UI;
     ///
@@ -75,8 +73,7 @@ namespace UnityEngine.UI
     ///         vh.AddTriangle(2, 3, 0);
     ///     }
     /// }
-    /// ]]>
-    ///</code>
+    /// </code>
     /// </example>
     public abstract class Graphic
         : UIBehaviour,
@@ -116,7 +113,6 @@ namespace UnityEngine.UI
         /// </remarks>
         /// <example>
         /// <code>
-        /// <![CDATA[
         /// //Place this script on a GameObject with a Graphic component attached e.g. a visual UI element (Image).
         ///
         /// using UnityEngine;
@@ -150,8 +146,7 @@ namespace UnityEngine.UI
         ///         m_Graphic.color = m_MyColor;
         ///     }
         /// }
-        /// ]]>
-        ///</code>
+        /// </code>
         /// </example>
         public virtual Color color { get { return m_Color; } set { if (SetPropertyUtility.SetColor(ref m_Color, value)) SetVerticesDirty(); } }
 

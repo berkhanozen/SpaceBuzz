@@ -79,7 +79,7 @@ namespace UnityEditor.UI
         void ToggleLeft(Rect position, SerializedProperty property, GUIContent label)
         {
             bool toggle = property.boolValue;
-            EditorGUI.BeginProperty(position, label, property);
+            EditorGUI.showMixedValue = property.hasMultipleDifferentValues;
             EditorGUI.BeginChangeCheck();
             int oldIndent = EditorGUI.indentLevel;
             EditorGUI.indentLevel = 0;
@@ -89,7 +89,7 @@ namespace UnityEditor.UI
             {
                 property.boolValue = property.hasMultipleDifferentValues ? true : !property.boolValue;
             }
-            EditorGUI.EndProperty();
+            EditorGUI.showMixedValue = false;
         }
     }
 }

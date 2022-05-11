@@ -1,10 +1,9 @@
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Pool;
 
 namespace UnityEngine.UI
 {
-    [AddComponentMenu("UI/Effects/Shadow", 80)]
+    [AddComponentMenu("UI/Effects/Shadow", 14)]
     /// <summary>
     /// Adds an outline to a graphic using IVertexModifier.
     /// </summary>

@@ -9,7 +9,6 @@ namespace UnityEngine.EventSystems
     /// </remarks>
     /// <example>
     /// <code>
-    /// <![CDATA[
     /// //This is a full example of how a GameObject changes direction using MoveDirection states
     /// //Assign this script to a visible GameObject (with a Rigidbody attached) to see it in action
     ///
@@ -126,8 +125,7 @@ namespace UnityEngine.EventSystems
     ///         }
     ///     }
     /// }
-    /// ]]>
-    ///</code>
+    /// </code>
     /// </example>
     public enum MoveDirection
     {
@@ -139,7 +137,6 @@ namespace UnityEngine.EventSystems
         /// </remarks>
         /// <example>
         /// <code>
-        /// <![CDATA[
         /// //Assign this script to a visible GameObject (with a Rigidbody attached) to see this in action
         ///
         /// using UnityEngine;
@@ -213,8 +210,7 @@ namespace UnityEngine.EventSystems
         ///         }
         ///     }
         /// }
-        /// ]]>
-        ///</code>
+        /// </code>
         /// </example>
         Left,
 
@@ -226,7 +222,6 @@ namespace UnityEngine.EventSystems
         /// </remarks>
         /// <example>
         /// <code>
-        /// <![CDATA[
         /// //Attach this script to a GameObject with a Rigidbody component. Press the "Move Up" button in Game view to see it in action.
         ///
         /// using UnityEngine;
@@ -300,8 +295,7 @@ namespace UnityEngine.EventSystems
         ///         }
         ///     }
         /// }
-        /// ]]>
-        ///</code>
+        /// </code>
         /// </example>
         Up,
 
@@ -313,7 +307,6 @@ namespace UnityEngine.EventSystems
         /// </remarks>
         /// <example>
         /// <code>
-        /// <![CDATA[
         /// //Attach this script to a GameObject with a Rigidbody component. Press the "Move Right" button in Game view to see it in action.
         ///
         /// using UnityEngine;
@@ -387,8 +380,7 @@ namespace UnityEngine.EventSystems
         ///         }
         ///     }
         /// }
-        /// ]]>
-        ///</code>
+        /// </code>
         /// </example>
         Right,
 
@@ -400,7 +392,6 @@ namespace UnityEngine.EventSystems
         /// </remarks>
         /// <example>
         /// <code>
-        /// <![CDATA[
         /// //Attach this script to a GameObject with a Rigidbody component. Press the "Move Down" button in Game view to see it in action.
         ///
         /// using UnityEngine;
@@ -474,8 +465,7 @@ namespace UnityEngine.EventSystems
         ///         }
         ///     }
         /// }
-        /// ]]>
-        ///</code>
+        /// </code>
         /// </example>
         Down,
 
@@ -487,7 +477,6 @@ namespace UnityEngine.EventSystems
         /// </remarks>
         /// <example>
         /// <code>
-        /// <![CDATA[
         /// //Attach this script to a GameObject with a Rigidbody attached. This script starts off on the ModeDirection.None state but changes depending on buttons you press.
         ///
         /// using UnityEngine;
@@ -561,8 +550,7 @@ namespace UnityEngine.EventSystems
         ///         }
         ///     }
         /// }
-        /// ]]>
-        ///</code>
+        /// </code>
         /// </example>
         None
     }

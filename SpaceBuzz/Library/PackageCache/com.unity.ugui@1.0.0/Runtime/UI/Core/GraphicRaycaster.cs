@@ -157,12 +157,6 @@ namespace UnityEngine.UI
                 // will be all zeros so when the returned index is 0 we will default to the event data to be safe.
                 eventPosition = eventData.position;
 
-#if UNITY_EDITOR
-                if (Display.activeEditorGameViewTarget != displayIndex)
-                    return;
-                eventPosition.z = Display.activeEditorGameViewTarget;
-#endif
-
                 // We dont really know in which display the event occured. We will process the event assuming it occured in our display.
             }
 

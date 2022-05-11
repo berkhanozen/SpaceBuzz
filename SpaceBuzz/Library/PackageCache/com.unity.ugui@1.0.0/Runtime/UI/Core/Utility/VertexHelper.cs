@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using UnityEngine.Pool;
 
 namespace UnityEngine.UI
 {
@@ -12,7 +11,6 @@ namespace UnityEngine.UI
     /// </remarks>
     /// <example>
     /// <code>
-    /// <![CDATA[
     /// using UnityEngine;
     /// using UnityEngine.UI;
     ///
@@ -36,8 +34,7 @@ namespace UnityEngine.UI
     ///         }
     ///     }
     /// }
-    /// ]]>
-    ///</code>
+    /// </code>
     /// </example>
     public class VertexHelper : IDisposable
     {

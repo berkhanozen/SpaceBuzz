@@ -40,9 +40,7 @@ namespace UnityEditor.UI
             EditorGUILayout.PropertyField(m_IsOnProperty);
             if (EditorGUI.EndChangeCheck())
             {
-                if (!Application.isPlaying)
-                    EditorSceneManager.MarkSceneDirty(toggle.gameObject.scene);
-
+                EditorSceneManager.MarkSceneDirty(toggle.gameObject.scene);
                 ToggleGroup group = m_GroupProperty.objectReferenceValue as ToggleGroup;
 
                 toggle.isOn = m_IsOnProperty.boolValue;
@@ -62,9 +60,7 @@ namespace UnityEditor.UI
             EditorGUILayout.PropertyField(m_GroupProperty);
             if (EditorGUI.EndChangeCheck())
             {
-                if (!Application.isPlaying)
-                    EditorSceneManager.MarkSceneDirty(toggle.gameObject.scene);
-
+                EditorSceneManager.MarkSceneDirty(toggle.gameObject.scene);
                 ToggleGroup group = m_GroupProperty.objectReferenceValue as ToggleGroup;
                 toggle.group = group;
             }

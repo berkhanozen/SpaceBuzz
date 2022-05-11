@@ -50,7 +50,6 @@ namespace UnityEngine.UI
         /// </remarks>
         /// <example>
         ///<code>
-        ///<![CDATA[
         ///using UnityEngine;
         ///using System.Collections;
         ///using UnityEngine.UI; // Required when using UI elements.
@@ -72,7 +71,6 @@ namespace UnityEngine.UI
         ///        }
         ///    }
         ///}
-        ///]]>
         ///</code>
         ///</example>
 
@@ -96,7 +94,6 @@ namespace UnityEngine.UI
         /// </summary>
         ///<example>
         ///<code>
-        ///<![CDATA[
         ///using UnityEngine;
         ///using System.Collections;
         ///using UnityEngine.UI; // Required when using UI elements.
@@ -118,7 +115,6 @@ namespace UnityEngine.UI
         ///        }
         ///    }
         ///}
-        ///]]>
         ///</code>
         ///</example>
         float flexibleHeight { get; }
@@ -182,7 +178,6 @@ namespace UnityEngine.UI
     /// </remarks>
     /// <example>
     /// <code>
-    /// <![CDATA[
     /// //This script shows how the GameObject’s own RectTransforms can be changed.
     /// //This creates a rectangle on the screen of the scale, positition and rotation you define in the Inspector.
     /// //Make sure to set the X and Y scale to be more than 0 to see it
@@ -242,8 +237,7 @@ namespace UnityEngine.UI
     ///         rectTransform.SetPositionAndRotation(m_Position, Quaternion.Euler(m_Rotation));
     ///     }
     /// }
-    /// ]]>
-    ///</code>
+    /// </code>
     /// </example>
     public interface ILayoutSelfController : ILayoutController
     {
