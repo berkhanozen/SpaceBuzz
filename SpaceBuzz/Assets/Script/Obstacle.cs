@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    [SerializeField] GameObject UI;
+    private void OnCollisionEnter(Collision collision)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if(collision.gameObject.tag == "Engel")
         {
-
+            UI.SetActive(true);
+            Time.timeScale = 0f;
         }
     }
 }
