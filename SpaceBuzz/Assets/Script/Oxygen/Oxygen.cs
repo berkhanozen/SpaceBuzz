@@ -6,7 +6,7 @@ using TMPro;
 public class Oxygen : MonoBehaviour
 {
     
-    [SerializeField] private float oxygenCylinder = 103;
+    public static float oxygenCylinder = 103;
 
     [SerializeField] private TextMeshProUGUI ioxygen;
 

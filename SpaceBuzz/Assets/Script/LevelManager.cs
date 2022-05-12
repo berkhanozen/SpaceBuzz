@@ -5,10 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
+
+
     public void TryAgain()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Score.totalscore = 0;
+        Oxygen.oxygenCylinder = 100;
     }
 
     public void GoToBase()
