@@ -10,15 +10,7 @@ public class Obstacle : MonoBehaviour
     {
         OxygenZero();
     }
-    private void OnCollisionEnter(Collision collision)
-    {
-        if(collision.gameObject.tag == "Engel")
-        {
-            // Oxygen.oxygenCylinder -= 10;
-            UI.SetActive(true);
-            Time.timeScale = 0f;
-        }
-    }
+    
 
     public void OxygenZero()
     {

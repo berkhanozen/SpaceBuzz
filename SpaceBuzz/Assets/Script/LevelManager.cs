@@ -5,14 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
-
+    [SerializeField] Oxygen OxygenScriptEnable;
 
     public void TryAgain()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        OxygenScriptEnable.enabled = false;
         Score.totalscore = 0;
-        Oxygen.oxygenCylinder = 100;
+        Oxygen.oxygenCylinder = 500;
     }
 
     public void GoToBase()
