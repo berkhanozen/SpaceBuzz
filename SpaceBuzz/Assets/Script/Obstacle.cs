@@ -5,7 +5,7 @@ using UnityEngine;
 public class Obstacle : MonoBehaviour
 {
     [SerializeField] GameObject UI;
-
+ 
     private void LateUpdate()
     {
         OxygenZero();
@@ -14,6 +14,7 @@ public class Obstacle : MonoBehaviour
     {
         if(collision.gameObject.tag == "Engel")
         {
+            // Oxygen.oxygenCylinder -= 10;
             UI.SetActive(true);
             Time.timeScale = 0f;
         }
