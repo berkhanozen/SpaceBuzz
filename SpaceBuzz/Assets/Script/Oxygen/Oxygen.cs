@@ -41,6 +41,8 @@ public class Oxygen : MonoBehaviour
         {
             oxygenCylinder += 5;
             Destroy(other.gameObject);
+            Pickup();
+
         }
 
         if (other.gameObject.CompareTag("Engel"))
@@ -50,5 +52,21 @@ public class Oxygen : MonoBehaviour
             oxygenCylinder -= 10;
             Destroy(other.gameObject);
         }
+    }
+
+    //Oksijen Toplama Efekti
+    private GameObject oxClonePickupEffect;
+    public GameObject oxPickupEffect;
+
+    public void Pickup() // Pacticle Efect
+    {
+        oxClonePickupEffect = Instantiate(oxPickupEffect, transform.position, transform.rotation);
+        Invoke("deleteParticle", 0.40f); // Clone Particle Destroy
+
+    }
+
+    void deleteParticle() // Clone Particle Destroy
+    {
+        Destroy(oxClonePickupEffect);
     }
 }
