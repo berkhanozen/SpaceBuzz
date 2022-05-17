@@ -51,6 +51,7 @@ public class Oxygen : MonoBehaviour
             oxygenScript.enabled = true;
             oxygenCylinder -= 10;
             Destroy(other.gameObject);
+            obstacleEffect();
         }
     }
 
@@ -68,5 +69,23 @@ public class Oxygen : MonoBehaviour
     void deleteParticle() // Clone Particle Destroy
     {
         Destroy(oxClonePickupEffect);
+    }
+
+
+
+    // Engele Çarpma Efekti
+    private GameObject obstacleClonePickupEffect;
+    public GameObject obstaclePickupEffect;
+
+    public void obstacleEffect() // Pacticle Efect
+    {
+        oxClonePickupEffect = Instantiate(obstaclePickupEffect, transform.position, transform.rotation);
+        Invoke("deleteParticle", 0.80f); // Clone Particle Destroy
+
+    }
+
+    void deleteObstacleParticle() // Clone Particle Destroy
+    {
+        Destroy(obstacleClonePickupEffect);
     }
 }

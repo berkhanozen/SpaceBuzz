@@ -42,5 +42,46 @@ public class LevelDistance : MonoBehaviour
         {
             _controller.moveSpeed += 2;
         }
+
+        if (Idistance == 180)
+        {
+            _controller.moveSpeed += 2;
+        }
+
+        if (Idistance == 240)
+        {
+            _controller.moveSpeed += 2;
+        }
+
+        if (Idistance == 350)
+        {
+            _controller.moveSpeed += 2;
+        }
+
+        if (Idistance == 450)
+        {
+            _controller.moveSpeed += 2;
+        }
+
+        if (Idistance == 500)
+        {
+            _controller.moveSpeed += 2;
+        }
+
+        if (Idistance == 550)
+        {
+            _controller.moveSpeed += 2;
+        }
+
+        if (Idistance == 600)
+        {
+            _controller.moveSpeed += 2;
+        }
+
+        if (Idistance == 700)
+        {
+            _controller.moveSpeed += 1;
+            _controller.leftRightSpeed = 1;
+        }
     }
 }
