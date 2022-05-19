@@ -21,8 +21,8 @@ public class Score : MonoBehaviour
         scoretext.text = totalscore.ToString();
         
 
-        scoretext.text = "Toplanan Tas: " + totalscore.ToString();
-        gameOverScoretext.text = "Toplanan Tas: " + totalscore.ToString();
+        scoretext.text = "Toplanan Ay Taþý: " + totalscore.ToString();
+        gameOverScoretext.text = "Toplanan Ay Taþý: " + totalscore.ToString();
     }
 
     private void OnTriggerEnter(Collider other)

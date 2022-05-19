@@ -61,6 +61,7 @@ public class LevelDistance : MonoBehaviour
         if (Idistance == 450)
         {
             _controller.moveSpeed += 2;
+            _controller.leftRightSpeed = 1;
         }
 
         if (Idistance == 500)
@@ -81,7 +82,6 @@ public class LevelDistance : MonoBehaviour
         if (Idistance == 700)
         {
             _controller.moveSpeed += 1;
-            _controller.leftRightSpeed = 1;
         }
     }
 }
