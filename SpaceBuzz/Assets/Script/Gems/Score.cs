@@ -8,21 +8,27 @@ using UnityEngine.SceneManagement;
 public class Score : MonoBehaviour
 {
     
-    public static int totalscore;
+    public static int aytasi;
     [SerializeField] private TextMeshProUGUI scoretext;
     [SerializeField] private TextMeshProUGUI gameOverScoretext;
 
     private GameObject clonePickupEffect; // Clone Particle Destroy
 
     public GameObject pickupEffect; // Pacticle Efect
-
+    private void Start()
+    {
+        if (PlayerPrefs.HasKey("aytasi"))
+        {
+            aytasi = PlayerPrefs.GetInt("aytasi");
+        }
+    }
     private void Update()
     {
-        scoretext.text = totalscore.ToString();
+        scoretext.text = aytasi.ToString();
         
 
-        scoretext.text = "Toplanan Tas: " + totalscore.ToString();
-        gameOverScoretext.text = "Toplanan Tas: " + totalscore.ToString();
+        scoretext.text = "Toplanan Ay Tasi: " + aytasi.ToString();
+        gameOverScoretext.text = "Toplanan Tas: " + aytasi.ToString();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -30,8 +36,9 @@ public class Score : MonoBehaviour
         if (other.gameObject.CompareTag("Puan"))
         {
             Destroy(other.gameObject);
-            totalscore++;
-            scoretext.text = totalscore.ToString();
+            aytasi++;
+            PlayerPrefs.SetInt("aytasi", aytasi);
+            scoretext.text = aytasi.ToString();
 
             Pickup(); // Pacticle Efect
         }

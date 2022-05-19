@@ -12,7 +12,7 @@ public class LevelManager : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         OxygenScriptEnable.enabled = false;
-        Score.totalscore = 0;
+        Score.aytasi = 0;
         Oxygen.oxygenCylinder = 500;
     }
 
