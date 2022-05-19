@@ -13,6 +13,8 @@ public class Oxygen : MonoBehaviour
 
     [SerializeField] private Oxygen oxygenScript;
 
+    [SerializeField] private CameraShake mainCamera;
+
     private void Awake()
     {
         oxygenScript.enabled = false;
@@ -21,6 +23,7 @@ public class Oxygen : MonoBehaviour
     private void Start()
     {
         InvokeRepeating("oxygenSystem", 0.0f, 4f);
+        mainCamera = FindObjectOfType<CameraShake>();
     }
 
     private void Update()
@@ -80,6 +83,7 @@ public class Oxygen : MonoBehaviour
     public void obstacleEffect() // Pacticle Efect
     {
         oxClonePickupEffect = Instantiate(obstaclePickupEffect, transform.position, transform.rotation);
+        StartCoroutine(mainCamera.Shaking());
         Invoke("deleteParticle", 0.80f); // Clone Particle Destroy
 
     }

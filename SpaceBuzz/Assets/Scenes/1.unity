@@ -2221,6 +2221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1806259573}
   - component: {fileID: 1806259574}
+  - component: {fileID: 1806259575}
   m_Layer: 0
   m_Name: CameraPos
   m_TagString: Untagged
@@ -2258,6 +2259,52 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _transform: {fileID: 506410683}
+--- !u!114 &1806259575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806259572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f47205ca85dc5bd43a5e72a978816e04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 0.75
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.00365448
+      inSlope: 0.28825387
+      outSlope: 0.28825387
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.3056131
+      value: 0.09174864
+      inSlope: -0.061332237
+      outSlope: -0.061332237
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 1
+      outWeight: 0.32082197
+    - serializedVersion: 3
+      time: 1
+      value: 0.00365448
+      inSlope: -0.1268661
+      outSlope: -0.1268661
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1830462973
 GameObject:
   m_ObjectHideFlags: 0
@@ -2852,6 +2899,10 @@ PrefabInstance:
       propertyPath: ioxygen
       value: 
       objectReference: {fileID: 2125108729}
+    - target: {fileID: 8559491152191635894, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
+      propertyPath: mainCamera
+      value: 
+      objectReference: {fileID: 1806259575}
     - target: {fileID: 8559491152191635894, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
       propertyPath: ioxygenEnable
       value: 
