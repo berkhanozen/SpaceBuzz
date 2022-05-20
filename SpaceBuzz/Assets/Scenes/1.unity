@@ -258,6 +258,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 41741809}
   m_CullTransparentMesh: 1
+--- !u!137 &253336263 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 8559491151722225461, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
+  m_PrefabInstance: {fileID: 8559491151553935520}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &263617325
 GameObject:
   m_ObjectHideFlags: 0
@@ -2898,6 +2903,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8559491151722225461, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8559491152191635876, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
       propertyPath: scoretext
       value: 
@@ -2947,12 +2956,40 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1402509347}
     - target: {fileID: 8559491152191635898, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
+      propertyPath: _UIScore
+      value: 
+      objectReference: {fileID: 1655903030}
+    - target: {fileID: 8559491152191635898, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
+      propertyPath: _skinned
+      value: 
+      objectReference: {fileID: 253336263}
+    - target: {fileID: 8559491152191635898, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
+      propertyPath: _UIOxygen
+      value: 
+      objectReference: {fileID: 324419613}
+    - target: {fileID: 8559491152191635898, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
       propertyPath: _distance
       value: 
       objectReference: {fileID: 1402509349}
     - target: {fileID: 8559491152191635898, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
+      propertyPath: diedEffect
+      value: 
+      objectReference: {fileID: 2009904060492104919, guid: 078828b165c9caa4c9ca5e77754dd232, type: 3}
+    - target: {fileID: 8559491152191635898, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
+      propertyPath: _UIDistance
+      value: 
+      objectReference: {fileID: 1500147393}
+    - target: {fileID: 8559491152191635898, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
       propertyPath: _controller
       value: 
       objectReference: {fileID: 1402509345}
+    - target: {fileID: 8559491152191635898, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
+      propertyPath: oxPickupEffect
+      value: 
+      objectReference: {fileID: 2009904060492104919, guid: 078828b165c9caa4c9ca5e77754dd232, type: 3}
+    - target: {fileID: 8559491152191635898, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
+      propertyPath: diedPickupEffect
+      value: 
+      objectReference: {fileID: 2009904060492104919, guid: 078828b165c9caa4c9ca5e77754dd232, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}

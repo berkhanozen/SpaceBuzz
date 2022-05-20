@@ -82,9 +82,9 @@ public class Oxygen : MonoBehaviour
 
     public void obstacleEffect() // Pacticle Efect
     {
-        oxClonePickupEffect = Instantiate(obstaclePickupEffect, transform.position, transform.rotation);
+        obstacleClonePickupEffect = Instantiate(obstaclePickupEffect, transform.position, transform.rotation);
         StartCoroutine(mainCamera.Shaking());
-        Invoke("deleteParticle", 0.80f); // Clone Particle Destroy
+        Invoke("deleteObstacleParticle", 0.80f); // Clone Particle Destroy
 
     }
 
