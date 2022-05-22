@@ -19,6 +19,6 @@ public class LevelManager : MonoBehaviour
     public void GoToBase()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("0");
+        SceneManager.LoadScene("base");
     }
 }
