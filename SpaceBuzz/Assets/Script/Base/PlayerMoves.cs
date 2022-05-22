@@ -7,6 +7,7 @@ public class PlayerMoves : MonoBehaviour
     private Animator anim;
     private UnityEngine.CharacterController controller;
 
+
     public float speed = 600.0f;
     public float turnSpeed = 400.0f;
     public float xRange1 = 105.0f;
@@ -17,6 +18,9 @@ public class PlayerMoves : MonoBehaviour
 
     private Vector3 moveDirection = Vector3.zero;
 
+    public FloatingJoystick floatingJoystick;
+    private bool playMoveAnim;
+
     void Start()
     {
         controller = GetComponent<UnityEngine.CharacterController>();
@@ -25,7 +29,16 @@ public class PlayerMoves : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.W))
+        if(floatingJoystick.Vertical != 0 || floatingJoystick.Horizontal != 0)
+        {
+            playMoveAnim = true;
+        }
+        else
+        {
+            playMoveAnim = false;
+        }
+        
+        if (playMoveAnim)
         {
             anim.SetInteger("AnimationPar", 1);
         }
@@ -36,10 +49,12 @@ public class PlayerMoves : MonoBehaviour
 
         if (controller.isGrounded)
         {
-            moveDirection = transform.forward * Input.GetAxis("Vertical") * speed;
+            //moveDirection = transform.forward * Input.GetAxis("Vertical") * speed;
+            moveDirection = transform.forward * floatingJoystick.Vertical * speed;
         }
 
-        float turn = Input.GetAxis("Horizontal");
+        //float turn = Input.GetAxis("Horizontal");
+        float turn = floatingJoystick.Horizontal;
         transform.Rotate(0, turn * turnSpeed * Time.deltaTime, 0);
         controller.Move(moveDirection * Time.deltaTime);
         moveDirection.y -= gravity * Time.deltaTime;

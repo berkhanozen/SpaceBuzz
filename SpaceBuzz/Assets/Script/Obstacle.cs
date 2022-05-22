@@ -15,6 +15,8 @@ public class Obstacle : MonoBehaviour
 
     [SerializeField] private GameObject _UIScore;
     [SerializeField] private GameObject _UIOxygen;
+    [SerializeField] private GameObject _UIleftbutton;
+    [SerializeField] private GameObject _UIrightbutton;
 
     [SerializeField] private SkinnedMeshRenderer _skinned;
 
@@ -44,6 +46,8 @@ public class Obstacle : MonoBehaviour
             _UIDistance.SetActive(false);
             _UIScore.SetActive(false);
             _UIOxygen.SetActive(false);
+            _UIleftbutton.SetActive(false);
+            _UIrightbutton.SetActive(false);
 
             StartCoroutine(skinmeshFalse());
 
