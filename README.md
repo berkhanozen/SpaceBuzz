@@ -64,15 +64,16 @@ Astronot Buzz, gerekli eğitimleri tamamlayıp Uzay Taşları Görevine katılma
 
 - **Daily Scrum:** Daily Scrum toplantılarının Slack Call üzerinden yapılmasına karar verilmiştir. Ekip üyeleri zamansal sebeplerden ötürü Slack Call üzerinden toplantı yapamazsa Slack grubunda mesajlaşmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint1_Documents/ScrumToplantilari.docx?raw=true)
 
-- **Sprint board update: Sprint board screenshotları:**
+- **Sprint board update:** Sprint board screenshotları:
 
 ![Backlog 1](https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint1_Documents/backlog1.PNG) 
 
-- **Ürün Durumu: Ekran görüntüleri:**
+- **Ürün Durumu::** Ekran görüntüleri
 
   ![Screenshot 1](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint1_Documents/product1.png?raw=true)
 
 - **Sprint Review:**
+
 Alınan kararlar: Miro Board’da bulunan backlog kısmı için düzenleme yapılması gerekli görülmüştür. Bazı kısımlar tekrar görüşülerek iptal edilmiştir. O kısımlar Miro Board’da Reddedilenler (rejected) kısmına eklenmiştir. Oyuna yapılacak bazı eklemeler bir sonraki sprint’e aktarılmıştır. 
 Sprint Review Katılımcıları: Batuhan Özkan, Berkhan Özen, Fatih Şeker, Ünal Giray Ergün, Yıldız İşleyen
 
@@ -96,21 +97,27 @@ Sprint Review Katılımcıları: Batuhan Özkan, Berkhan Özen, Fatih Şeker, Ü
 
 •	**Daily Scrum:** Daily Scrum toplantıları Slack Call üzerinden yapılmaya devam edilmiştir. Daha hızlı bir iletişimin sağlanabilmesi için Slack grubunun yanı sıra WhatsApp uygulaması da aktif kullanılmıştır. Her commit öncesi yapılanlar grup üzerinden ekip ile paylaşılmıştır. Oyun içinde yapılacak olan değişikliğin görüşülmesi için ekip üyeleri (çoğunlukla geliştiriciler) gün içerisinde Slack Call kullanarak ortalama bir saatlik toplantılar gerçekleştirmiş, fikir ve bilgi alışverişinde bulunmuştur. Bunun yanı sıra tüm ekip üyelerinin katıldığı Scrum buluşmaları da yapılmıştır. [Sprint 2 Daily Scrum Chats](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint2_Documents/ScrumToplantilari.docx?raw=true)
 
-•	**Sprint board update: Sprint board screenshotları:**
+•	**Sprint board update:** Sprint board screenshotları:
 
 ![Backlog 1](https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint2_Documents/backlog1.PNG) 
  
-• **Ürün durumu: Ekran Görüntüleri:**
+• **Ürün durumu:** Ekran Görüntüleri:
 
 ![Screenshot 1](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint2_Documents/product1.PNG?raw=true)
 ![Screenshot 2](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint2_Documents/product2.PNG?raw=true)
 ![Screenshot 3](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint2_Documents/product_base.PNG?raw=true)
      
-•	**Sprint Review: Alınan kararlar:**
-Kamera için ayarlamalar yapılmıştır. Karaktere ve oyun içi nesnelere gerekli görülen particle sistemler eklenmiştir. Eklenecek görsel efektler bir sonraki sprint’e aktarılmıştır.
+•	**Sprint Review:** 
+
+Alınan kararlar: Kamera için ayarlamalar yapılmıştır. Karaktere ve oyun içi nesnelere gerekli görülen particle sistemler eklenmiştir. Eklenecek görsel efektler bir sonraki sprint’e aktarılmıştır.
+
 **Sprint Review katılımcıları:** Batuhan Özkan, Berkhan Özen, Fatih Şeker, Ünal Giray Ergün, Yıldız İşleyen
+
 •	**Sprint Retrospective:**
   o	Github için Branch kullanımı gözden geçirilmeli.
+  
+-**Diğer Notlar:**
+- N/A
 
 ---
 
