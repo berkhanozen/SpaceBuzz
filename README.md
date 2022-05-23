@@ -114,8 +114,8 @@ Alınan kararlar: Kamera için ayarlamalar yapılmıştır. Karaktere ve oyun i�
 
 **Sprint Review katılımcıları:** Batuhan Özkan, Berkhan Özen, Fatih Şeker, Ünal Giray Ergün, Yıldız İşleyen
 
-•	**Sprint Retrospective:**
-  o	Github için Branch kullanımı gözden geçirilmeli.
+-	**Sprint Retrospective:**
+  -	Github için Branch kullanımı gözden geçirilmeli.
   
 -**Diğer Notlar:**
 - N/A
