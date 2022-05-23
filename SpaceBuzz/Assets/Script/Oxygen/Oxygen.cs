@@ -2,11 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using MusicFilesNM;
 
 public class Oxygen : MonoBehaviour
 {
 
     public static float oxygenCylinder = 500;
+
+    private GameObject sound;
+    private MusicFiles oxygenCollectingSound;   
+    private MusicFiles crashingSound;       // Oksijen toplama ve çarpma ses efektleri
+    [SerializeField] private int oxygenSoundIndex;
+    [SerializeField] private int obstacleSoundIndex;
 
     [SerializeField] private TextMeshProUGUI ioxygen;
     [SerializeField] private GameObject ioxygenEnable;
@@ -14,10 +21,14 @@ public class Oxygen : MonoBehaviour
     [SerializeField] private Oxygen oxygenScript;
 
     [SerializeField] private CameraShake mainCamera;
-
+    
     private void Awake()
     {
         oxygenScript.enabled = false;
+
+        sound = GameObject.Find("AudioManager");
+        oxygenCollectingSound = sound.GetComponent(typeof(MusicFiles)) as MusicFiles;
+        crashingSound = sound.GetComponent(typeof(MusicFiles)) as MusicFiles;
     }
 
     private void Start()
@@ -45,16 +56,18 @@ public class Oxygen : MonoBehaviour
             oxygenCylinder += 5;
             Destroy(other.gameObject);
             Pickup();
-
+            AudioSource.PlayClipAtPoint(oxygenCollectingSound.audioClipList[oxygenSoundIndex], gameObject.transform.position);
         }
 
         if (other.gameObject.CompareTag("Engel"))
         {
+
             ioxygenEnable.SetActive(true);
             oxygenScript.enabled = true;
             oxygenCylinder -= 10;
             Destroy(other.gameObject);
             obstacleEffect();
+            AudioSource.PlayClipAtPoint(crashingSound.audioClipList[obstacleSoundIndex], gameObject.transform.position);
         }
     }
 
@@ -74,8 +87,6 @@ public class Oxygen : MonoBehaviour
         Destroy(oxClonePickupEffect);
     }
 
-
-
     // Engele Çarpma Efekti
     private GameObject obstacleClonePickupEffect;
     public GameObject obstaclePickupEffect;
@@ -85,11 +96,10 @@ public class Oxygen : MonoBehaviour
         obstacleClonePickupEffect = Instantiate(obstaclePickupEffect, transform.position, transform.rotation);
         StartCoroutine(mainCamera.Shaking());
         Invoke("deleteObstacleParticle", 0.80f); // Clone Particle Destroy
-
     }
 
     void deleteObstacleParticle() // Clone Particle Destroy
     {
         Destroy(obstacleClonePickupEffect);
-    }
+    }  
 }

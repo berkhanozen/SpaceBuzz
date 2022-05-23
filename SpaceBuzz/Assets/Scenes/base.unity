@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1278,6 +1278,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f9b178ccd3b86f4ebbfc1f5a2815e56, type: 3}
+--- !u!1 &1085673601 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4978134937528694545, guid: 5436579ee913c4149bd27a0317ca93e0, type: 3}
+  m_PrefabInstance: {fileID: 1146629939}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1144491230
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1395,6 +1400,22 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8507823470656103559, guid: 5436579ee913c4149bd27a0317ca93e0, type: 3}
+      propertyPath: xRange1
+      value: -40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8507823470656103559, guid: 5436579ee913c4149bd27a0317ca93e0, type: 3}
+      propertyPath: xRange2
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8507823470656103559, guid: 5436579ee913c4149bd27a0317ca93e0, type: 3}
+      propertyPath: zRange1
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8507823470656103559, guid: 5436579ee913c4149bd27a0317ca93e0, type: 3}
+      propertyPath: zRange2
+      value: -40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8507823470656103559, guid: 5436579ee913c4149bd27a0317ca93e0, type: 3}
       propertyPath: turnSpeed
       value: 200
       objectReference: {fileID: 0}
@@ -1409,6 +1430,102 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4980658765633955055, guid: 5436579ee913c4149bd27a0317ca93e0, type: 3}
   m_PrefabInstance: {fileID: 1146629939}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1146629945
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085673601}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 488f35730a6e70c45a5f97bb7d249a43, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.19
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &1208866130 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f05fda47800055d419f445539910b42b, type: 3}

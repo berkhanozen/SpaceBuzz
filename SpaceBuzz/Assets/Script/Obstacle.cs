@@ -1,13 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using MusicFilesNM;
 
 public class Obstacle : MonoBehaviour
 {
+    private GameObject sound;
+    private MusicFiles deathSound; // Ölüm ses efekti
+    [SerializeField] private int deathSoundIndex;
+
     [SerializeField] GameObject UI;
 
     [SerializeField] private CharacterController _controller;
-
 
     [SerializeField] private LevelDistance _distance; // Ekosistem için eklendi
     [SerializeField] private Animator _anim; // Ekosistem için eklendi
@@ -21,6 +25,11 @@ public class Obstacle : MonoBehaviour
 
     [SerializeField] private SkinnedMeshRenderer _skinned;
 
+    private void Awake()
+    {
+        sound = GameObject.Find("AudioManager");
+        deathSound = sound.GetComponent(typeof(MusicFiles)) as MusicFiles;
+    }
     private void LateUpdate()
     {
         OxygenZero();
@@ -31,7 +40,6 @@ public class Obstacle : MonoBehaviour
         }
     }
     
-
     public void OxygenZero()
     {
         if (Oxygen.oxygenCylinder <= 0)
@@ -52,7 +60,6 @@ public class Obstacle : MonoBehaviour
             _UIpausebutton.SetActive(false);
 
             StartCoroutine(skinmeshFalse());
-
         }
     }
 
@@ -65,14 +72,13 @@ public class Obstacle : MonoBehaviour
     {
         diedClonePickupEffect = Instantiate(diedPickupEffect, transform.position, transform.rotation);
         Invoke("deleteParticle", 0.80f); // Clone Particle Destroy
-
     }
 
     void deleteParticle() // Clone Particle Destroy
     {
         Destroy(diedClonePickupEffect);
     }
-
+    
     IEnumerator skinmeshFalse()
     {
         if (isDied)
@@ -81,6 +87,7 @@ public class Obstacle : MonoBehaviour
             yield return new WaitForSeconds(1f);
             Pickup();
             _skinned.enabled = false;
+            AudioSource.PlayClipAtPoint(deathSound.audioClipList[deathSoundIndex], gameObject.transform.position);
         }
     }
 }

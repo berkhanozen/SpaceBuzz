@@ -10,10 +10,10 @@ public class PlayerMoves : MonoBehaviour
 
     public float speed = 600.0f;
     public float turnSpeed = 400.0f;
-    public float xRange1 = 105.0f;
-    public float xRange2 = 170.0f;
-    public float zRange1 = 150.0f;
-    public float zRange2 = 95.0f;
+    public float xRange1;
+    public float xRange2;
+    public float zRange1;
+    public float zRange2;
     public float gravity = 20.0f;
 
     private Vector3 moveDirection = Vector3.zero;
@@ -62,19 +62,19 @@ public class PlayerMoves : MonoBehaviour
         // Karakter sýnýrlarý
         if (transform.position.x < xRange1)
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+            transform.position = new Vector3(xRange1, transform.position.y, transform.position.z);
         }
         if (transform.position.x > xRange2)
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+            transform.position = new Vector3(xRange2, transform.position.y, transform.position.z);
         }
         if (transform.position.z > zRange1)
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+            transform.position = new Vector3(transform.position.x, transform.position.y, zRange1);
         }
         if (transform.position.z < zRange2)
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+            transform.position = new Vector3(transform.position.x, transform.position.y, zRange2);
         }
     }
 }
