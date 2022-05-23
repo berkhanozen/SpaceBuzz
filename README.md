@@ -62,7 +62,7 @@ Astronot Buzz, gerekli eğitimleri tamamlayıp Uzay Taşları Görevine katılma
 
 - **Backlog düzeni ve Story seçimleri**: Miro Board’da gözüken kırmızı itemler yapılacak işleri, mavi itemler yapılmakta olan görevleri ve yeşil itemler ise tamamlanmış görevleri temsil etmektedir. Ek olarak Miro Board’da bulunan Kanban’a backlog ve rejected kısımları da eklenmiştir. Oyun için düşünülen ve kullanılan assetlerin linkleri Miro Board’da tutulmaktadır.
 
-- **Daily Scrum**: Daily Scrum toplantılarının Slack Call üzerinden yapılmasına karar verilmiştir. Ekip üyeleri zamansal sebeplerden ötürü Slack Call üzerinden toplantı yapamazsa Slack grubunda mesajlaşmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint1_Documents/ScrumToplantılarıToplu.docx?raw=true)
+- **Daily Scrum**: Daily Scrum toplantılarının Slack Call üzerinden yapılmasına karar verilmiştir. Ekip üyeleri zamansal sebeplerden ötürü Slack Call üzerinden toplantı yapamazsa Slack grubunda mesajlaşmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint1_Documents/ScrumToplantilari.docx?raw=true)
 
 - **Sprint board update**: Sprint board screenshotları: 
 ![Backlog 1](https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint1_Documents/backlog1.PNG) 
@@ -84,6 +84,30 @@ Sprint Review Katılımcıları: Batuhan Özkan, Berkhan Özen, Fatih Şeker, Ü
 
 # Sprint 2
 
+•	Sprint Notları: Miro Board’da backloglar yapılacak değişikliklere göre düzenlenmiştir. Gerekli yerlerde bazı backlogların içine maddeler eklenmiştir. Oyuna yeni özellikler eklenmiştir. İstenilen ilerleme seviyesi bu sprintte de sağlanmıştır.
+
+•	Sprint içinde tamamlanması tahmin edilen puan: 140 puan
+
+
+•	Puan tamamlama mantığı: Toplamda proje boyunca tamamlanması gereken 410 puanlık backlog bulunmaktadır. İkinci sprintte tahmini puan 140 olarak tamamlanmıştır. 
+
+•	Backlog düzeni ve Story seçimleri: Birinci sprintte düzenlenen Miro board’a eklemeler yapılmıştır. Scrum buluşmalarında belirtilen yararlı olabilecek fikirleri unutmamak adına Kanban’a Öneriler kısmı eklenmiştir. Bitenler kısmına tamamlanan işlerin tahmini puanları eklenmiştir.
+
+•	Daily Scrum: Daily Scrum toplantıları Slack Call üzerinden yapılmaya devam edilmiştir. Daha hızlı bir iletişimin sağlanabilmesi için Slack grubunun yanı sıra WhatsApp uygulaması da aktif kullanılmıştır. Her commit öncesi yapılanlar grup üzerinden ekip ile paylaşılmıştır. Oyun içinde yapılacak olan değişikliğin görüşülmesi için ekip üyeleri (çoğunlukla geliştiriciler) gün içerisinde Slack Call kullanarak ortalama bir saatlik toplantılar gerçekleştirmiş, fikir ve bilgi alışverişinde bulunmuştur. Bunun yanı sıra tüm ekip üyelerinin katıldığı Scrum buluşmaları da yapılmıştır. [Sprint 2 Daily Scrum Chats](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint2_Documents/ScrumToplantilari.docx?raw=true)
+
+•	Sprint board update: Sprint board screenshotları:
+ ![Backlog 1](https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint2_Documents/backlog1.PNG) 
+ 
+•	Ürün durumu: Ekran Görüntüleri:
+![Screenshot 1](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint1_Documents/product1.png?raw=true)
+![Screenshot 2](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint1_Documents/product2.png?raw=true)
+![Screenshot 3](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint1_Documents/product_base.png?raw=true)
+     
+•	Sprint Review: Alınan kararlar: 
+Kamera için ayarlamalar yapılmıştır. Karaktere ve oyun içi nesnelere gerekli görülen particle sistemler eklenmiştir. Eklenecek görsel efektler bir sonraki sprint’e aktarılmıştır.
+Sprint Review katılımcıları: Batuhan Özkan, Berkhan Özen, Fatih Şeker, Ünal Giray Ergün, Yıldız İşleyen
+•	Sprint Retrospective:
+o	Github için Branch kullanımı gözden geçirilmeli.
 
 ---
 
