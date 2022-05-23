@@ -75,7 +75,8 @@ Astronot Buzz, gerekli eğitimleri tamamlayıp Uzay Taşları Görevine katılma
 - **Sprint Review:**
 
 Alınan kararlar: Miro Board’da bulunan backlog kısmı için düzenleme yapılması gerekli görülmüştür. Bazı kısımlar tekrar görüşülerek iptal edilmiştir. O kısımlar Miro Board’da Reddedilenler (rejected) kısmına eklenmiştir. Oyuna yapılacak bazı eklemeler bir sonraki sprint’e aktarılmıştır. 
-Sprint Review Katılımcıları: Batuhan Özkan, Berkhan Özen, Fatih Şeker, Ünal Giray Ergün, Yıldız İşleyen
+
+**Sprint Review Katılımcıları:** Batuhan Özkan, Berkhan Özen, Fatih Şeker, Ünal Giray Ergün, Yıldız İşleyen
 
 - **Sprint Retrospective:**
   - Tahmin puanları gözden geçirilmeli.
