@@ -102,9 +102,9 @@ Sprint Review Katılımcıları: Batuhan Özkan, Berkhan Özen, Fatih Şeker, Ü
  
 • **Ürün durumu: Ekran Görüntüleri:**
 
-![Screenshot 1](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint2_Documents/product1.png?raw=true)
-![Screenshot 2](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint2_Documents/product2.png?raw=true)
-![Screenshot 3](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint2_Documents/product_base.png?raw=true)
+![Screenshot 1](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint2_Documents/product1.PNG?raw=true)
+![Screenshot 2](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint2_Documents/product2.PNG?raw=true)
+![Screenshot 3](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint2_Documents/product_base.PNG?raw=true)
      
 •	**Sprint Review: Alınan kararlar:**
 Kamera için ayarlamalar yapılmıştır. Karaktere ve oyun içi nesnelere gerekli görülen particle sistemler eklenmiştir. Eklenecek görsel efektler bir sonraki sprint’e aktarılmıştır.
