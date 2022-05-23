@@ -110,7 +110,7 @@ Sprint Review Katılımcıları: Batuhan Özkan, Berkhan Özen, Fatih Şeker, Ü
 Kamera için ayarlamalar yapılmıştır. Karaktere ve oyun içi nesnelere gerekli görülen particle sistemler eklenmiştir. Eklenecek görsel efektler bir sonraki sprint’e aktarılmıştır.
 **Sprint Review katılımcıları:** Batuhan Özkan, Berkhan Özen, Fatih Şeker, Ünal Giray Ergün, Yıldız İşleyen
 •	**Sprint Retrospective:**
-o	Github için Branch kullanımı gözden geçirilmeli.
+  o	Github için Branch kullanımı gözden geçirilmeli.
 
 ---
 
