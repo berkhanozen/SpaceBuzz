@@ -44,7 +44,7 @@ public class InteractRocket : MonoBehaviour
 
     public void playSecondPlanet()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 
     public void unlockSecondPlanet()

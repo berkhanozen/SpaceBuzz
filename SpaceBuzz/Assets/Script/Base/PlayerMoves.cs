@@ -25,6 +25,9 @@ public class PlayerMoves : MonoBehaviour
     {
         controller = GetComponent<UnityEngine.CharacterController>();
         anim = gameObject.GetComponentInChildren<Animator>();
+
+        //FPS x Kilitle
+        Application.targetFrameRate = 120;
     }
 
     void Update()

@@ -13,6 +13,9 @@ public class CharacterController : MonoBehaviour
     private void Start()
     {
         anim.SetBool("run", true);
+
+        //FPS x Kilitle
+        Application.targetFrameRate = 120;
     }
 
 

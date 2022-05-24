@@ -21,6 +21,8 @@ public class Oxygen : MonoBehaviour
     [SerializeField] private Oxygen oxygenScript;
 
     [SerializeField] private CameraShake mainCamera;
+
+    public static bool isDamaged=false;
     
     private void Awake()
     {
@@ -68,6 +70,7 @@ public class Oxygen : MonoBehaviour
             Destroy(other.gameObject);
             obstacleEffect();
             AudioSource.PlayClipAtPoint(crashingSound.audioClipList[obstacleSoundIndex], gameObject.transform.position);
+            isDamaged = true;
         }
     }
 

@@ -32,6 +32,14 @@ public class PauseManager : MonoBehaviour
 
     public void BacktoBase()
     {
-        SceneManager.LoadScene("base");
+        SceneManager.LoadScene(0);
+    }
+
+    public void RestartGame()
+    {
+        Time.timeScale = 1;
+        Oxygen.isDamaged = false;
+        SceneManager.LoadScene(1);
+
     }
 }
