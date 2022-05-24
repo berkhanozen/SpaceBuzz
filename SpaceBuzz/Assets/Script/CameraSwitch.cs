@@ -7,6 +7,7 @@ public class CameraSwitch : MonoBehaviour
     Animator camAnim;
     bool isMainCam = true;
     public GameObject TapToStartText;
+    public GameObject gameLogo;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,7 @@ public class CameraSwitch : MonoBehaviour
         {
             CameraChange();
             TapToStartText.SetActive(false);
+            gameLogo.SetActive(false);
         }
     }
 
