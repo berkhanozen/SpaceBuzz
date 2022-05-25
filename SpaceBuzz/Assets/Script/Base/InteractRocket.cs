@@ -28,7 +28,7 @@ public class InteractRocket : MonoBehaviour
     private void Update()
     {
         Score.aytasi = PlayerPrefs.GetInt("aytasi");
-        aytasitext.text = "Toplanan Ay Taþý: " + Score.aytasi.ToString();
+        aytasitext.text = "Toplanan Ay Tasi: " + Score.aytasi.ToString();
 
         if(isUnlockSecondPlanet == true)
         {

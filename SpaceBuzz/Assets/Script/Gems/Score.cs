@@ -38,7 +38,7 @@ public class Score : MonoBehaviour
     {
         scoretext.text = aytasi.ToString();
         scoretext.text = aytasi.ToString();
-        gameOverScoretext.text = "Toplanan Ay Taþý: " + aytasi.ToString();
+        gameOverScoretext.text = "Toplanan Ay Tasi: " + aytasi.ToString();
     }
 
     private void OnTriggerEnter(Collider other)
