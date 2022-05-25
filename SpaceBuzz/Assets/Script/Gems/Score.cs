@@ -37,7 +37,7 @@ public class Score : MonoBehaviour
     private void Update()
     {
         scoretext.text = aytasi.ToString();
-        scoretext.text = "Toplanan Ay Taþý: " + aytasi.ToString();
+        scoretext.text = aytasi.ToString();
         gameOverScoretext.text = "Toplanan Ay Taþý: " + aytasi.ToString();
     }
 

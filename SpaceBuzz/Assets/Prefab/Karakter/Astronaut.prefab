@@ -435,6 +435,7 @@ GameObject:
   - component: {fileID: 8559491152191635886}
   - component: {fileID: 8559491152191635894}
   - component: {fileID: 8559491152191635898}
+  - component: {fileID: 1402509350}
   m_Layer: 0
   m_Name: Astronaut
   m_TagString: Player
@@ -507,7 +508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f0a071e22f934845944457497880a11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 8
   leftRightSpeed: 2
   anim: {fileID: 8559491151726469621}
 --- !u!136 &8559491152191635902
@@ -539,6 +540,7 @@ MonoBehaviour:
   scoretext: {fileID: 0}
   gameOverScoretext: {fileID: 0}
   pickupEffect: {fileID: 4748730675913877244, guid: 0e9879984cfd40147b21504e697fda63, type: 3}
+  gemSoundIndex: 0
 --- !u!114 &8559491152191635881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -584,6 +586,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05b6e3d8019ecc54baea11fce983bdea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  oxygenSoundIndex: 1
+  obstacleSoundIndex: 2
   ioxygen: {fileID: 0}
   ioxygenEnable: {fileID: 0}
   oxygenScript: {fileID: 8559491152191635894}
@@ -602,7 +606,115 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31fdb1b63dfbc68449379943a80f4b4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathSoundIndex: 3
   UI: {fileID: 0}
+  _controller: {fileID: 8559491151455760494}
+  _distance: {fileID: 8559491152191635886}
+  _anim: {fileID: 8559491151726469621}
+  _UIDistance: {fileID: 0}
+  _UIScore: {fileID: 0}
+  _UIOxygen: {fileID: 0}
+  _UIleftbutton: {fileID: 0}
+  _UIrightbutton: {fileID: 0}
+  _UIpausebutton: {fileID: 0}
+  _skinned: {fileID: 8559491151722225461}
+  diedPickupEffect: {fileID: 2009904060492104919, guid: 078828b165c9caa4c9ca5e77754dd232, type: 3}
+--- !u!82 &1402509350
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8559491151719043643}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 00ff8c301baf0488c80ca2c9e29a3e9f, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.521
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &8559491151719043645
 GameObject:
   m_ObjectHideFlags: 0

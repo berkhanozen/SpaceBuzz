@@ -13,6 +13,8 @@ public class InteractRocket : MonoBehaviour
     [SerializeField] private GameObject SecondPlanetUnlockButton;
     [SerializeField] private GameObject Uyari1;
 
+    [SerializeField] Oxygen OxygenScriptEnable;
+
     private bool isUnlockSecondPlanet;
     private void Start()
     {
@@ -38,8 +40,12 @@ public class InteractRocket : MonoBehaviour
 
     public void playMoon()
     {
-        SceneManager.LoadScene(1);
-
+        
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+        Oxygen.isDamaged = false;
+        OxygenScriptEnable.enabled = false;
+        Oxygen.oxygenCylinder = 500;
     }
 
     public void playSecondPlanet()

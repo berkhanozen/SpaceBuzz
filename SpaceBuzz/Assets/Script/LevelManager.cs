@@ -11,6 +11,7 @@ public class LevelManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Oxygen.isDamaged = false;
         OxygenScriptEnable.enabled = false;
         Score.aytasi = 0;
         Oxygen.oxygenCylinder = 500;
@@ -19,6 +20,6 @@ public class LevelManager : MonoBehaviour
     public void GoToBase()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("base");
+        SceneManager.LoadScene(0);
     }
 }
