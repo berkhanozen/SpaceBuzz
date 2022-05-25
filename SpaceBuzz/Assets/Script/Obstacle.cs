@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using MusicFilesNM;
+using TMPro;
 
 public class Obstacle : MonoBehaviour
 {
@@ -25,10 +26,20 @@ public class Obstacle : MonoBehaviour
 
     [SerializeField] private SkinnedMeshRenderer _skinned;
 
+    [SerializeField] private TextMeshProUGUI highScoreText;
+    private bool freezeDistance=false;
+    private int freezedHighScore;
+    private bool callMeOnce=true;
+    private bool callMeOnce2 = true;
+
     private void Awake()
     {
         sound = GameObject.Find("AudioManager");
         deathSound = sound.GetComponent(typeof(MusicFiles)) as MusicFiles;
+
+        //RESET HIGH SCORE
+        //PlayerPrefs.DeleteKey("HighScore");
+        
     }
     private void LateUpdate()
     {
@@ -38,15 +49,43 @@ public class Obstacle : MonoBehaviour
         {
             Oxygen.oxygenCylinder = 1;
         }
+
+        
+        if (callMeOnce)
+        {
+            if(Oxygen.oxygenCylinder <= 0)
+            {
+                freezeDistance = true;
+                if (freezeDistance)
+                {
+                    freezedHighScore = _distance.Idistance;
+                    freezeDistance = false;
+                    
+                }
+                callMeOnce = false;
+            }
+        }
+
+        if (callMeOnce2)
+        {
+            highScoreText.text = PlayerPrefs.GetInt("HighScore").ToString();
+            callMeOnce2 = false;
+        }
+        
+        Invoke("calculateHighScore", 2f);
     }
+
     
+
     public void OxygenZero()
     {
         if (Oxygen.oxygenCylinder <= 0)
         {
             UI.SetActive(true);
             Time.timeScale = 1f;
+
             
+
             // Ekosistemi devam ettirmek için kullanýlanlar
             _controller.enabled = false;
             _distance.enabled = false;
@@ -60,6 +99,14 @@ public class Obstacle : MonoBehaviour
             _UIpausebutton.SetActive(false);
 
             StartCoroutine(skinmeshFalse());
+
+            
+            if (PlayerPrefs.GetInt("HighScore") <= freezedHighScore || PlayerPrefs.GetInt("HighScore") == 0)
+            {
+                
+                PlayerPrefs.SetInt("HighScore", freezedHighScore);
+            }
+
         }
     }
 
@@ -88,6 +135,23 @@ public class Obstacle : MonoBehaviour
             Pickup();
             _skinned.enabled = false;
             AudioSource.PlayClipAtPoint(deathSound.audioClipList[deathSoundIndex], gameObject.transform.position);
+        }
+    }
+
+    public void calculateHighScore()
+    {
+        if (_distance.Idistance <= PlayerPrefs.GetInt("HighScore") && Oxygen.oxygenCylinder != 0)
+        {
+            int calculatedHighScore = PlayerPrefs.GetInt("HighScore") - _distance.Idistance;
+            highScoreText.text = calculatedHighScore.ToString();
+        }
+        else if (PlayerPrefs.GetInt("HighScore") < _distance.Idistance && Oxygen.oxygenCylinder != 0)
+        {
+            highScoreText.text = _distance.Idistance.ToString();
+        }
+        else if (Oxygen.oxygenCylinder <= 0)
+        {
+            highScoreText.text = PlayerPrefs.GetInt("HighScore").ToString();
         }
     }
 }
