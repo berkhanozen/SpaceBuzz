@@ -23,6 +23,8 @@ public class Obstacle : MonoBehaviour
     [SerializeField] private GameObject _UIleftbutton;
     [SerializeField] private GameObject _UIrightbutton;
     [SerializeField] private GameObject _UIpausebutton;
+    [SerializeField] private GameObject _UIhighscore;
+    [SerializeField] private GameObject _UIres;
 
     [SerializeField] private SkinnedMeshRenderer _skinned;
 
@@ -75,7 +77,31 @@ public class Obstacle : MonoBehaviour
         Invoke("calculateHighScore", 2f);
     }
 
-    
+    public void Resurrection()
+    {
+        UI.SetActive(false);
+        Time.timeScale = 1f;
+        Oxygen.oxygenCylinder = 500f;
+
+
+        // Ekosistemi devam ettirmek için kullanýlanlar
+        _controller.enabled = true;
+        _distance.enabled = true;
+        _anim.SetBool("run", true);
+        _anim.SetBool("flip", false);
+        _UIDistance.SetActive(true);
+        _UIScore.SetActive(true);
+        _UIOxygen.SetActive(true);
+        _UIleftbutton.SetActive(true);
+        _UIrightbutton.SetActive(true);
+        _UIpausebutton.SetActive(true);
+        _UIhighscore.SetActive(true);
+
+        _skinned.enabled = true;
+        isDied = true;
+        _UIres.SetActive(false);
+        
+    }
 
     public void OxygenZero()
     {
@@ -97,6 +123,7 @@ public class Obstacle : MonoBehaviour
             _UIleftbutton.SetActive(false);
             _UIrightbutton.SetActive(false);
             _UIpausebutton.SetActive(false);
+            _UIhighscore.SetActive(false);
 
             StartCoroutine(skinmeshFalse());
 
