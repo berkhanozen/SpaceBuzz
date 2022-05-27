@@ -34,6 +34,8 @@ public class Obstacle : MonoBehaviour
     private bool callMeOnce=true;
     private bool callMeOnce2 = true;
 
+    public PlayfabManager _playfabmanager;
+
     private void Awake()
     {
         sound = GameObject.Find("AudioManager");
@@ -46,7 +48,7 @@ public class Obstacle : MonoBehaviour
     private void LateUpdate()
     {
         OxygenZero();
-
+        
         if (Input.GetKeyDown(KeyCode.H))
         {
             Oxygen.oxygenCylinder = 1;
@@ -98,8 +100,11 @@ public class Obstacle : MonoBehaviour
         _UIhighscore.SetActive(true);
 
         _skinned.enabled = true;
+        callMeOnce = true;
         isDied = true;
         _UIres.SetActive(false);
+
+        _distance.Idistance = freezedHighScore;
         
     }
 
@@ -132,11 +137,13 @@ public class Obstacle : MonoBehaviour
             {
                 
                 PlayerPrefs.SetInt("HighScore", freezedHighScore);
+                _playfabmanager.SendLeaderboard(PlayerPrefs.GetInt("HighScore"));
             }
 
+            
         }
     }
-
+    
     //Died Efekti
     private GameObject diedClonePickupEffect;
     public GameObject diedPickupEffect;
