@@ -9,6 +9,7 @@ public class PauseManager : MonoBehaviour
     [SerializeField] private GameObject PauseButton;
 
     [SerializeField] Oxygen OxygenScriptEnable;
+    public AdsManager ads;
 
     private void Start()
     {
@@ -34,6 +35,7 @@ public class PauseManager : MonoBehaviour
 
     public void BacktoBase()
     {
+        ads.OnDestroy();
         SceneManager.LoadScene(0);
     }
 
@@ -44,6 +46,7 @@ public class PauseManager : MonoBehaviour
         Oxygen.isDamaged = false;
         OxygenScriptEnable.enabled = false;
         Oxygen.oxygenCylinder = 500;
+        ads.OnDestroy();
 
 
     }

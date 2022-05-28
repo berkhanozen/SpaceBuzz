@@ -35,6 +35,9 @@ public class Obstacle : MonoBehaviour
     private bool callMeOnce2 = true;
 
     public PlayfabManager _playfabmanager;
+    public AdsManager ads;
+
+    
 
     private void Awake()
     {
@@ -105,6 +108,19 @@ public class Obstacle : MonoBehaviour
         _UIres.SetActive(false);
 
         _distance.Idistance = freezedHighScore;
+        
+
+    }
+
+    // ADS
+    void OnRewardedAdSuccess()
+    {
+        Resurrection();
+    }
+
+    public void ResurrectionAdButton()
+    {
+        ads.PlayRewardedAd(OnRewardedAdSuccess);
         
     }
 

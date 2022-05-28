@@ -1491,6 +1491,7 @@ GameObject:
   - component: {fileID: 1301266121}
   - component: {fileID: 1301266120}
   - component: {fileID: 1301266123}
+  - component: {fileID: 1301266124}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1574,6 +1575,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2d08e49d6c3ee3742a020dcd51bee464, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rowPrefab: {fileID: 0}
+  rowParent: {fileID: 0}
+  nameWindow: {fileID: 0}
+--- !u!114 &1301266124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301266119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fd93ddfced346f4e85e68e6418cb41d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1383540980
@@ -1920,7 +1936,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1798866271}
         m_TargetAssemblyTypeName: Obstacle, Assembly-CSharp
-        m_MethodName: Resurrection
+        m_MethodName: ResurrectionAdButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3016,6 +3032,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OxygenScriptEnable: {fileID: 1402509339}
+  ads: {fileID: 1301266124}
 --- !u!4 &2080955445
 Transform:
   m_ObjectHideFlags: 0
@@ -4509,6 +4526,7 @@ MonoBehaviour:
   PauseScreen: {fileID: 5243493578589141935}
   PauseButton: {fileID: 5243493578470552754}
   OxygenScriptEnable: {fileID: 1402509339}
+  ads: {fileID: 1301266124}
 --- !u!222 &5243493578470552758
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5716,6 +5734,10 @@ PrefabInstance:
       propertyPath: UI
       value: 
       objectReference: {fileID: 344774299}
+    - target: {fileID: 8559491152191635898, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
+      propertyPath: ads
+      value: 
+      objectReference: {fileID: 1301266124}
     - target: {fileID: 8559491152191635898, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
       propertyPath: _UIres
       value: 

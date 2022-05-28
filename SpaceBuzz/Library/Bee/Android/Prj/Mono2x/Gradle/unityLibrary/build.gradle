@@ -3,6 +3,8 @@ apply plugin: 'com.android.library'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation(name: 'UnityAds', ext:'aar')
+    implementation(name: 'UnityAdsAndroidPlugin', ext:'aar')
 
 }
 
