@@ -87,7 +87,7 @@ public class Obstacle : MonoBehaviour
         UI.SetActive(false);
         Time.timeScale = 1f;
         Oxygen.oxygenCylinder = 500f;
-
+        _skinned.enabled = true;
 
         // Ekosistemi devam ettirmek için kullanýlanlar
         _controller.enabled = true;
@@ -102,14 +102,14 @@ public class Obstacle : MonoBehaviour
         _UIpausebutton.SetActive(true);
         _UIhighscore.SetActive(true);
 
-        _skinned.enabled = true;
+        
         callMeOnce = true;
         isDied = true;
         _UIres.SetActive(false);
 
         _distance.Idistance = freezedHighScore;
-        
 
+        
     }
 
     // ADS

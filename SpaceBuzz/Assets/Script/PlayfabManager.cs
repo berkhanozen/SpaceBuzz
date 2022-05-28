@@ -41,6 +41,7 @@ public class PlayfabManager : MonoBehaviour
         if (result.InfoResultPayload.PlayerProfile != null)
         {
             name = result.InfoResultPayload.PlayerProfile.DisplayName;
+            GetStatistics();
         }
 
         if (name == null)
@@ -120,5 +121,32 @@ public class PlayfabManager : MonoBehaviour
             Debug.Log(string.Format("PLACE: {0} | ID: {1} | VALUE: {2}",
                 item.Position, item.PlayFabId, item.StatValue));
         }
+    }
+
+    void GetStatistics()
+    {
+        PlayFabClientAPI.GetPlayerStatistics(
+            new GetPlayerStatisticsRequest(),
+            OnGetStatistics,
+            error => Debug.LogError(error.GenerateErrorReport())
+        );
+    }
+
+    void OnGetStatistics(GetPlayerStatisticsResult result)
+    {
+        Debug.Log("Received the following Statistics:");
+        foreach (var eachStat in result.Statistics)
+        {
+            Debug.Log("Statistic (" + eachStat.StatisticName + "): " + eachStat.Value);
+            switch (eachStat.StatisticName)
+            {
+                case "DistanceScore":
+                    int HighScore = eachStat.Value;
+                    PlayerPrefs.SetInt("HighScore", HighScore);
+                    break;
+
+            }
+        }
+
     }
 }
