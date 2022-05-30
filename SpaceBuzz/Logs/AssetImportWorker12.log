@@ -1,0 +1,708 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.1f1 (3b70a0754835) revision 3895456'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'tr' Physical Memory: 7976 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker12
+-projectPath
+C:/Users/batuh/Desktop/Space Buzz/Clone2/The-100/SpaceBuzz
+-logFile
+Logs/AssetImportWorker12.log
+-srvPort
+53515
+Successfully changed project path to: C:/Users/batuh/Desktop/Space Buzz/Clone2/The-100/SpaceBuzz
+C:/Users/batuh/Desktop/Space Buzz/Clone2/The-100/SpaceBuzz
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 268.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.1f1 (3b70a0754835)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/batuh/Desktop/Space Buzz/Clone2/The-100/SpaceBuzz/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9b41)
+    Vendor:   Intel
+    VRAM:     3988 MB
+    Driver:   27.20.100.9365
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.043614 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 302.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.588 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3592ms)
+		BeginReloadAssembly (361ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (2546ms)
+			LoadAssemblies (351ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (643ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (182ms)
+			SetupLoadedEditorAssemblies (1408ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (47ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (303ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (774ms)
+				ProcessInitializeOnLoadMethodAttributes (277ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016219 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.535 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4539ms)
+		BeginReloadAssembly (626ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (38ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (91ms)
+		EndReloadAssembly (3246ms)
+			LoadAssemblies (433ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (726ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (246ms)
+			SetupLoadedEditorAssemblies (1782ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (239ms)
+				ProcessInitializeOnLoadAttributes (1389ms)
+				ProcessInitializeOnLoadMethodAttributes (99ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 1.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2207 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 93 unused Assets / (3.4 MB). Loaded Objects now: 2650.
+Memory consumption went from 117.4 MB to 114.0 MB.
+Total: 9.024100 ms (FindLiveObjects: 0.490700 ms CreateObjectMapping: 0.291300 ms MarkObjects: 6.185600 ms  DeleteObjects: 2.054000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004643 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 5.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.089 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4092ms)
+		BeginReloadAssembly (304ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (3505ms)
+			LoadAssemblies (203ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (470ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (150ms)
+			SetupLoadedEditorAssemblies (2439ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (222ms)
+				ProcessInitializeOnLoadAttributes (1932ms)
+				ProcessInitializeOnLoadMethodAttributes (184ms)
+				AfterProcessingInitializeOnLoad (51ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (54ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 20.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2182 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (3.4 MB). Loaded Objects now: 2666.
+Memory consumption went from 115.5 MB to 112.2 MB.
+Total: 13.364200 ms (FindLiveObjects: 0.453000 ms CreateObjectMapping: 0.254700 ms MarkObjects: 8.997600 ms  DeleteObjects: 3.654600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1084258.756369 seconds.
+  path: Assets/Prefab/Engeller/barrel.prefab
+  artifactKey: Guid(8a65c86488b81de4ca116a2ddf228dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Engeller/barrel.prefab using Guid(8a65c86488b81de4ca116a2ddf228dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47335d5fe35955069284aa86479eb384') in 0.498703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.694721 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab
+  artifactKey: Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab using Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7479e81bf96107daf739b61d9b178c1e') in 0.081467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.318577 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab
+  artifactKey: Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab using Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b8d170b9383a686192348b24a73a61') in 0.056676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.907707 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab
+  artifactKey: Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab using Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011fc81afa8f3302164d3fba9262d536') in 0.060981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.930499 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab
+  artifactKey: Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab using Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8118d61ce79f53e13aae0104de49fac5') in 0.066339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.017368 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab
+  artifactKey: Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab using Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a3c6b35ee6a9990f7d8dce43fd3777') in 0.085620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.723088 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab
+  artifactKey: Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab using Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7669405ec43ce0476d97c4598efeccd0') in 0.049600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.078091 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab
+  artifactKey: Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab using Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e01d21b3e1f55cffbb1d9764f943c2') in 0.073144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.406242 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab
+  artifactKey: Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab using Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d55afc70eef50580714f82a7136830') in 0.053896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.904002 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab
+  artifactKey: Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab using Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175c45267ca2b65a5fc622c1ab6a4d9c') in 0.077023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.770374 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab
+  artifactKey: Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab using Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242577eba6a2412aedd816e80202ca94') in 0.045254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.536966 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab
+  artifactKey: Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab using Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe857966bb43900b0d0a84bcc6c84da') in 0.044986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.738031 seconds.
+  path: Assets/Prefab/Tiles/Tile2.prefab
+  artifactKey: Guid(e0d7a9e3c0fb4e044bd1a40f0f895f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/Tile2.prefab using Guid(e0d7a9e3c0fb4e044bd1a40f0f895f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bb347bdc2e834c37693aa470b18c6a') in 0.227735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.415505 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab
+  artifactKey: Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab using Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138805b961772683b2ffb2e7ac8cfaf2') in 0.047092 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005564 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.204 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5210ms)
+		BeginReloadAssembly (256ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (4735ms)
+			LoadAssemblies (178ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (510ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (172ms)
+			SetupLoadedEditorAssemblies (3529ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (51ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (339ms)
+				ProcessInitializeOnLoadAttributes (2858ms)
+				ProcessInitializeOnLoadMethodAttributes (224ms)
+				AfterProcessingInitializeOnLoad (52ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (64ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 24.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2182 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (3.4 MB). Loaded Objects now: 2689.
+Memory consumption went from 119.5 MB to 116.1 MB.
+Total: 26.830800 ms (FindLiveObjects: 0.821900 ms CreateObjectMapping: 2.008100 ms MarkObjects: 15.638500 ms  DeleteObjects: 8.357500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 44.306628 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab
+  artifactKey: Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab using Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4123b9e08ea11f600b760fbc54f6e148') in 0.197314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.433810 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab
+  artifactKey: Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab using Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3c06c3a105c10093474e736797656b') in 0.057051 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005445 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.593 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5596ms)
+		BeginReloadAssembly (430ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (115ms)
+		EndReloadAssembly (4907ms)
+			LoadAssemblies (276ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (477ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (118ms)
+			SetupLoadedEditorAssemblies (3806ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (50ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (444ms)
+				ProcessInitializeOnLoadAttributes (3010ms)
+				ProcessInitializeOnLoadMethodAttributes (219ms)
+				AfterProcessingInitializeOnLoad (77ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (70ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 24.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2182 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (3.4 MB). Loaded Objects now: 2705.
+Memory consumption went from 119.5 MB to 116.2 MB.
+Total: 16.193300 ms (FindLiveObjects: 0.454800 ms CreateObjectMapping: 0.272400 ms MarkObjects: 12.491000 ms  DeleteObjects: 2.971900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 66.022373 seconds.
+  path: Assets/Prefab/Tiles/Tile2.prefab
+  artifactKey: Guid(e0d7a9e3c0fb4e044bd1a40f0f895f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/Tile2.prefab using Guid(e0d7a9e3c0fb4e044bd1a40f0f895f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddedc16724f44128ba7c7223d9a95d18') in 0.475593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.360146 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv01.prefab
+  artifactKey: Guid(8ad137f6808375f4e885d60451f0c4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv01.prefab using Guid(8ad137f6808375f4e885d60451f0c4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e6c3597ab16810de9863f92ef562df') in 0.152016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab
+  artifactKey: Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv08.prefab using Guid(da6e8bbd483d22c449e703a7e40afde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b54142c54f7d996904d241f38f037ba') in 0.059157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv09.prefab
+  artifactKey: Guid(5f285e9508d4e3f4488b284bb80a0b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv09.prefab using Guid(5f285e9508d4e3f4488b284bb80a0b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d656d01466e6af3e5ab7478bebed76a') in 0.052847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv05.prefab
+  artifactKey: Guid(ee88617da51e3e8479a812f9d58a94be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv05.prefab using Guid(ee88617da51e3e8479a812f9d58a94be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2f1af91b1fe92b857d6995c4067041') in 0.051426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv03.prefab
+  artifactKey: Guid(03fc9d38e2dd7c343baa918a99f6d833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv03.prefab using Guid(03fc9d38e2dd7c343baa918a99f6d833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e1caf1be990036e6e9906750b37732') in 0.056697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv07.prefab
+  artifactKey: Guid(67c6e02e204ef6244a8f475a94826851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv07.prefab using Guid(67c6e02e204ef6244a8f475a94826851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7379e59bb2f7e3f1000b58e708e5784') in 0.058224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv04.prefab
+  artifactKey: Guid(ff31047102e4ad54da5383aa244844cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv04.prefab using Guid(ff31047102e4ad54da5383aa244844cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7fcfe9df72d8b52f527569ee4c1822') in 0.055218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv10.prefab
+  artifactKey: Guid(227f9257bcc7175478a7f935e3bfc552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv10.prefab using Guid(227f9257bcc7175478a7f935e3bfc552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9444d2fdd4106001cd0e1cd353e0be18') in 0.058941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.268453 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv02.prefab
+  artifactKey: Guid(f035235bfe0fb5d48b6f85818f4f000e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv02.prefab using Guid(f035235bfe0fb5d48b6f85818f4f000e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c6acf1c2a9d3ae413db57cdef603c3') in 0.084722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv09.prefab
+  artifactKey: Guid(5f285e9508d4e3f4488b284bb80a0b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv09.prefab using Guid(5f285e9508d4e3f4488b284bb80a0b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e270743a7bb10b8ff54e1fa36fcd73') in 0.095908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv05.prefab
+  artifactKey: Guid(ee88617da51e3e8479a812f9d58a94be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv05.prefab using Guid(ee88617da51e3e8479a812f9d58a94be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1960b2f70077d35c286d9b77f83a95') in 0.064817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv06.prefab
+  artifactKey: Guid(4aa7f4f0acab60742bea9a9f6a3bb144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv06.prefab using Guid(4aa7f4f0acab60742bea9a9f6a3bb144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff02535f80d5be1a5711f769fbf36b2') in 0.064491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.143411 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv01.prefab
+  artifactKey: Guid(8ad137f6808375f4e885d60451f0c4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv01.prefab using Guid(8ad137f6808375f4e885d60451f0c4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38a9d30134f976d82e7c3682b0c7cf6') in 0.113111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv09.prefab
+  artifactKey: Guid(5f285e9508d4e3f4488b284bb80a0b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv09.prefab using Guid(5f285e9508d4e3f4488b284bb80a0b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa99d641a0ca78cdff1350077863ff6') in 0.072971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv10.prefab
+  artifactKey: Guid(227f9257bcc7175478a7f935e3bfc552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv10.prefab using Guid(227f9257bcc7175478a7f935e3bfc552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d503c4030ec8056cadf680a690a3dbc') in 0.048732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.580074 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv02.prefab
+  artifactKey: Guid(f035235bfe0fb5d48b6f85818f4f000e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv02.prefab using Guid(f035235bfe0fb5d48b6f85818f4f000e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5baa5b42021fca73ff1e877a15bc85a') in 0.092378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv05.prefab
+  artifactKey: Guid(ee88617da51e3e8479a812f9d58a94be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv05.prefab using Guid(ee88617da51e3e8479a812f9d58a94be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.094962 seconds  code(4) message(Build asset version error: assets/sinevfx/translucentcrystals/prefabs/crystalsv05.prefab in SourceAssetDB has modification time of '2022-05-30T08:06:37.3432077Z' while content on disk has modification time of '2022-05-30T08:06:38.0122981Z')
+  ERROR: Build asset version error: assets/sinevfx/translucentcrystals/prefabs/crystalsv05.prefab in SourceAssetDB has modification time of '2022-05-30T08:06:37.3432077Z' while content on disk has modification time of '2022-05-30T08:06:38.0122981Z'
+========================================================================
+Received Import Request.
+  Time since last request: 13.801952 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv01.prefab
+  artifactKey: Guid(8ad137f6808375f4e885d60451f0c4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv01.prefab using Guid(8ad137f6808375f4e885d60451f0c4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d66d664b6fa568997f6ae6ffb626e30') in 0.083671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv07.prefab
+  artifactKey: Guid(67c6e02e204ef6244a8f475a94826851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Prefabs/Crystalsv07.prefab using Guid(67c6e02e204ef6244a8f475a94826851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5430e22e0c738b413a19360c02416a6c') in 0.091450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.172912 seconds.
+  path: Assets/Prefab/Base/BaseAstronaut.prefab
+  artifactKey: Guid(5436579ee913c4149bd27a0317ca93e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Base/BaseAstronaut.prefab using Guid(5436579ee913c4149bd27a0317ca93e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a23e783bdbfc793d93242444fe48be0') in 0.120670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon@Run In Place.FBX
+  artifactKey: Guid(08c51a19609c0cb438cfda5d89063a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon@Run In Place.FBX using Guid(08c51a19609c0cb438cfda5d89063a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146ce260a6739af25c100392ba1fc8ba') in 0.130755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Sources/Meshtint Free Boximon Fiery Mega Toon Series/Animations/Boximon@Attack 01.FBX
+  artifactKey: Guid(c256d06ac23fc304783b388694974f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Meshtint Free Boximon Fiery Mega Toon Series/Animations/Boximon@Attack 01.FBX using Guid(c256d06ac23fc304783b388694974f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c10986b701ec7e78794fefbb0653fc6') in 0.119468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.917774 seconds.
+  path: Assets/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon@Walk In Place.FBX
+  artifactKey: Guid(dfa9829f7699a0646877a77ed03b0cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free Boximon Cyclopes Mega Toon Series/Boximon Animations/Boximon@Walk In Place.FBX using Guid(dfa9829f7699a0646877a77ed03b0cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9d9b99dcf0d145c0990b3fd4d7b303') in 0.124208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.311657 seconds.
+  path: Assets/Prefab/Canvas/Canvas.prefab
+  artifactKey: Guid(f4ec231433dd5e44b8351db3292bd464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Canvas/Canvas.prefab using Guid(f4ec231433dd5e44b8351db3292bd464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16026e4852bc339d61a2d9bb7fd118d') in 0.397414 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005678 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.208 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5212ms)
+		BeginReloadAssembly (285ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (4727ms)
+			LoadAssemblies (209ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (548ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (214ms)
+			SetupLoadedEditorAssemblies (3307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (142ms)
+				ProcessInitializeOnLoadAttributes (2822ms)
+				ProcessInitializeOnLoadMethodAttributes (219ms)
+				AfterProcessingInitializeOnLoad (65ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (69ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 32.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2182 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (3.4 MB). Loaded Objects now: 2722.
+Memory consumption went from 132.7 MB to 129.4 MB.
+Total: 31.345400 ms (FindLiveObjects: 0.740300 ms CreateObjectMapping: 2.116400 ms MarkObjects: 19.882800 ms  DeleteObjects: 8.602900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 124.356838 seconds.
+  path: Assets/SineVFX/TranslucentCrystals/Resources/Textures/CrystalMaps/TranslucentCrystal01_Normal.png
+  artifactKey: Guid(fbacd829ce7fbb14ea63d4c6afcc5f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SineVFX/TranslucentCrystals/Resources/Textures/CrystalMaps/TranslucentCrystal01_Normal.png using Guid(fbacd829ce7fbb14ea63d4c6afcc5f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9dc5dab872247165e5f3f310689550') in 0.590419 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005190 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.885 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4888ms)
+		BeginReloadAssembly (253ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (4393ms)
+			LoadAssemblies (196ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (449ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (138ms)
+			SetupLoadedEditorAssemblies (3293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (238ms)
+				ProcessInitializeOnLoadAttributes (2750ms)
+				ProcessInitializeOnLoadMethodAttributes (212ms)
+				AfterProcessingInitializeOnLoad (60ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (62ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 30.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2182 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (3.4 MB). Loaded Objects now: 2740.
+Memory consumption went from 132.7 MB to 129.3 MB.
+Total: 18.859900 ms (FindLiveObjects: 0.595100 ms CreateObjectMapping: 0.490000 ms MarkObjects: 13.040600 ms  DeleteObjects: 4.728700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 214.504456 seconds.
+  path: Assets/Prefab/Tiles/Tile3.prefab
+  artifactKey: Guid(aff50211975231849949d77a4c740089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/Tile3.prefab using Guid(aff50211975231849949d77a4c740089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb740a6357d5fb57ce1b0fe6d41b23db') in 0.546696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Prefab/Tiles/Tile7.prefab
+  artifactKey: Guid(36b878abc12d8ab4cb9ededb86128c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/Tile7.prefab using Guid(36b878abc12d8ab4cb9ededb86128c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ab53e03c37545615fdaeff26b2f01e') in 0.237927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Prefab/Tiles/Tile8.prefab
+  artifactKey: Guid(95fbe878ffeea824ea98a6126cc27379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/Tile8.prefab using Guid(95fbe878ffeea824ea98a6126cc27379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f539f2471952393fd4bcf73b04cb27ea') in 0.236198 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
