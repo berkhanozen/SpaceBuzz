@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.1f1 (3b70a0754835) revision 3895456'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Enterprise' Language: 'en' Physical Memory: 16251 MB
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'tr' Physical Memory: 16236 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\UnityEditor\2021.3.1f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker5
 -projectPath
-C:/Users/Giray/Documents/GitHub/The-100/SpaceBuzz
+C:/Users/berkh/Documents/Unity/The-100/SpaceBuzz
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-49440
-Successfully changed project path to: C:/Users/Giray/Documents/GitHub/The-100/SpaceBuzz
-C:/Users/Giray/Documents/GitHub/The-100/SpaceBuzz
+52180
+Successfully changed project path to: C:/Users/berkh/Documents/Unity/The-100/SpaceBuzz
+C:/Users/berkh/Documents/Unity/The-100/SpaceBuzz
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,279 +47,110 @@ C:/Users/Giray/Documents/GitHub/The-100/SpaceBuzz
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 103.13 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 65.11 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.1f1 (3b70a0754835)
-[Subsystems] Discovering subsystems at path D:/UnityEditor/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Giray/Documents/GitHub/The-100/SpaceBuzz/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/berkh/Documents/Unity/The-100/SpaceBuzz/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
     Vendor:   NVIDIA
-    VRAM:     5980 MB
-    Driver:   30.0.14.9729
+    VRAM:     6023 MB
+    Driver:   30.0.15.1295
 Initialize mono
-Mono path[0] = 'D:/UnityEditor/2021.3.1f1/Editor/Data/Managed'
-Mono path[1] = 'D:/UnityEditor/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/UnityEditor/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/UnityEditor/2021.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/UnityEditor/2021.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: D:/UnityEditor/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005653 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004613 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 74.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 45.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.046 seconds
+- Completed reload, in  0.551 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1047ms)
-		BeginReloadAssembly (159ms)
+	ReloadAssembly (551ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (696ms)
-			LoadAssemblies (160ms)
+		EndReloadAssembly (393ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (188ms)
+			SetupTypeCache (88ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (380ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (236ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (87ms)
+				InitializePlatformSupportModulesInManaged (60ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (75ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (149ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
+				RefreshPlugins (46ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004830 seconds.
+Registered in 0.002288 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000191C71A9470 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C71A9470 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C71B7480 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C71B7480 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\PlayFabSDKEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C1CC1010 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C5ADBC70 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C5ADBC70 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C71B7480 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C5AE7280 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\PlayFabEditorExtensions.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C5C67820 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C5AE7280 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C5C7CC30 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C1E37630 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C732C250 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C1E58240 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\PlayFab.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C1E58240 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C1E80A50 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C732C250 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C1D10230 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\UnityEngine.Monetization.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C732C250 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C2222E20 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C2222E20 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C2222E20 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C61C8860 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C2222E20 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C699C020 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C5C84C40 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C5C84C40 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\UnityEngine.Advertisements.DevX.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.831 seconds
+- Completed reload, in  0.957 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1832ms)
-		BeginReloadAssembly (346ms)
+	ReloadAssembly (958ms)
+		BeginReloadAssembly (205ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (159ms)
-		EndReloadAssembly (1291ms)
-			LoadAssemblies (197ms)
+			CreateAndSetChildDomain (128ms)
+		EndReloadAssembly (654ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (318ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (688ms)
+			SetupTypeCache (148ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (364ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (529ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2197 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 66 unused Assets / (1.4 MB). Loaded Objects now: 2667.
-Memory consumption went from 115.2 MB to 113.8 MB.
-Total: 5.052800 ms (FindLiveObjects: 0.320100 ms CreateObjectMapping: 0.208900 ms MarkObjects: 3.997000 ms  DeleteObjects: 0.525700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004817 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000191C8E02640 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C8E02640 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C7CBD580 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C8E02640 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\PlayFabSDKEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C1EF6EC0 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C7CBD580 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C7CBD580 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C8E02640 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C7CBD580 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\PlayFabEditorExtensions.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C7CBD580 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191CAC53820 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C7CBD580 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191CAA7C010 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C7CBD580 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C63E4010 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\PlayFab.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C63E4010 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C7CBD580 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C640C820 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C9FDB490 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\UnityEngine.Monetization.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C7CBD580 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C8E02640 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\UnityEngine.Advertisements.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C7CBD580 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C9005820 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C8A5F020 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C1EF6EC0 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191CA08E010 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C9018230 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000191C9FDB490 doesn't match image C:\Users\Giray\Documents\GitHub\The-100\SpaceBuzz\Library\ScriptAssemblies\UnityEngine.Advertisements.DevX.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.899 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2899ms)
-		BeginReloadAssembly (508ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (119ms)
-		EndReloadAssembly (2078ms)
-			LoadAssemblies (1087ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (367ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (673ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (523ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (281ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.39 ms, found 2 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2149 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (2.0 MB). Loaded Objects now: 2683.
-Memory consumption went from 111.6 MB to 109.7 MB.
-Total: 4.247500 ms (FindLiveObjects: 0.304100 ms CreateObjectMapping: 0.118800 ms MarkObjects: 3.287300 ms  DeleteObjects: 0.536200 ms)
+Unloading 2200 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (1.4 MB). Loaded Objects now: 2679.
+Memory consumption went from 127.6 MB to 126.3 MB.
+Total: 3.217600 ms (FindLiveObjects: 0.242000 ms CreateObjectMapping: 0.072500 ms MarkObjects: 2.531700 ms  DeleteObjects: 0.370300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -333,41 +164,70 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 13178.255507 seconds.
-  path: Assets/Prefab/Tiles/Tile2.prefab
-  artifactKey: Guid(e0d7a9e3c0fb4e044bd1a40f0f895f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Tiles/Tile2.prefab using Guid(e0d7a9e3c0fb4e044bd1a40f0f895f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c37fbcd201db60ff2fcd52282b54ac5') in 0.674100 seconds 
+  Time since last request: 163108.146959 seconds.
+  path: Assets/Prefab/Base/SpeederOLD.prefab
+  artifactKey: Guid(c58a3ee555a65c84fa4855768d70c2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Base/SpeederOLD.prefab using Guid(c58a3ee555a65c84fa4855768d70c2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e344dd8c0e31fa778e5b12c719de170') in 0.239679 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002107 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.914 seconds
+Domain Reload Profiling:
+	ReloadAssembly (914ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (727ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (147ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (387ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (300ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2148 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (1.4 MB). Loaded Objects now: 2702.
+Memory consumption went from 127.0 MB to 125.6 MB.
+Total: 3.462300 ms (FindLiveObjects: 0.218800 ms CreateObjectMapping: 0.065300 ms MarkObjects: 2.775000 ms  DeleteObjects: 0.402300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Prefab/Tiles/Tile8.prefab
-  artifactKey: Guid(95fbe878ffeea824ea98a6126cc27379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Tiles/Tile8.prefab using Guid(95fbe878ffeea824ea98a6126cc27379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc30eaaae901047f51f8aec68c025955') in 0.334385 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Prefab/Tiles/Tile5.prefab
-  artifactKey: Guid(74fb1fc2001c3c147b04252f07e4666a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Tiles/Tile5.prefab using Guid(74fb1fc2001c3c147b04252f07e4666a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e95aa27f4f362fd7e6f4ef1a58b246') in 0.313016 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Prefab/Tiles/Tile4.prefab
-  artifactKey: Guid(e626b5e848c1ceb41ade2bbd3eaefc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Tiles/Tile4.prefab using Guid(e626b5e848c1ceb41ade2bbd3eaefc94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd64d004df85c90934f307eeb7a69f9') in 0.308113 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 43.476396 seconds.
-  path: Assets/Prefab/Tiles/TileUpgraded/Tile1.prefab
-  artifactKey: Guid(6183279987f8f8646a0eb0907adf35cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Tiles/TileUpgraded/Tile1.prefab using Guid(6183279987f8f8646a0eb0907adf35cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4882f1fa09a972df75e622f906e20822') in 0.754397 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Prefab/Tiles/TileUpgraded/Tile3.prefab
-  artifactKey: Guid(c759f79f348de8f4bb6861d07ce7f862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Tiles/TileUpgraded/Tile3.prefab using Guid(c759f79f348de8f4bb6861d07ce7f862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4aa690647f209e4a9f8edb24daf3ec9') in 0.565562 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 116.298561 seconds.
+  path: Assets/Prefab/Tiles/UtaTiles/Tile11.prefab
+  artifactKey: Guid(759d1b41f428d8241b307a7543f04ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Tiles/UtaTiles/Tile11.prefab using Guid(759d1b41f428d8241b307a7543f04ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f21a46ca5cfa6567feebb1511bd13c8') in 0.516609 seconds 
