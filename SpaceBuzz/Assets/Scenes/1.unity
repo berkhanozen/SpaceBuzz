@@ -1492,6 +1492,7 @@ GameObject:
   - component: {fileID: 1301266120}
   - component: {fileID: 1301266123}
   - component: {fileID: 1301266124}
+  - component: {fileID: 1301266125}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1592,6 +1593,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fd93ddfced346f4e85e68e6418cb41d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1301266125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301266119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4ebd929bb9cd774aacb5b781dfb7cfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distancequest1: {fileID: 1921681543}
+  distancequest2: {fileID: 1921681543}
+  distancequest3: {fileID: 1921681543}
+  collectquest1: {fileID: 1921681543}
+  collectquest2: {fileID: 1921681543}
+  unlockPlanetQuest1: {fileID: 1921681543}
+  quest1: 0
+  quest2: 0
+  quest3: 0
 --- !u!1 &1383540980
 GameObject:
   m_ObjectHideFlags: 0
@@ -2568,6 +2590,7 @@ Transform:
   m_Children:
   - {fileID: 1301266122}
   - {fileID: 1595040731}
+  - {fileID: 1921681544}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2945,6 +2968,37 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!1 &1921681543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1921681544}
+  m_Layer: 0
+  m_Name: QuestPlaceHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1921681544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921681543}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1806259573}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1926426872
 GameObject:
   m_ObjectHideFlags: 0
@@ -5716,6 +5770,10 @@ PrefabInstance:
       propertyPath: distance
       value: 
       objectReference: {fileID: 5243493578275463788}
+    - target: {fileID: 8559491152191635886, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
+      propertyPath: _questcheck
+      value: 
+      objectReference: {fileID: 1301266125}
     - target: {fileID: 8559491152191635886, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
       propertyPath: gameOverDistance
       value: 

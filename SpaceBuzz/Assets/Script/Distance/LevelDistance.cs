@@ -12,6 +12,8 @@ public class LevelDistance : MonoBehaviour
     [SerializeField] private TextMeshProUGUI gameOverDistance;
     [SerializeField] private CharacterController _controller;
 
+    [SerializeField] private QuestCheck _questcheck;
+
     private void Start()
     {
         InvokeRepeating("calculateDistance", 0.0f, 0.4f);
@@ -67,6 +69,9 @@ public class LevelDistance : MonoBehaviour
         if (Idistance == 500)
         {
             _controller.moveSpeed += 2;
+            _questcheck.quest1 = true;
+            PlayerPrefs.SetInt("quest1", (_questcheck.quest1 ? 1 : 0));
+
         }
 
         if (Idistance == 550)
@@ -83,6 +88,18 @@ public class LevelDistance : MonoBehaviour
         {
             _controller.moveSpeed += 1;
             _controller.leftRightSpeed += 1;
+        }
+
+        if (Idistance == 1000)
+        {
+            _questcheck.quest2 = true;
+            PlayerPrefs.SetInt("quest2", (_questcheck.quest2 ? 1 : 0));
+        }
+
+        if (Idistance == 2000)
+        {
+            _questcheck.quest3 = true;
+            PlayerPrefs.SetInt("quest3", (_questcheck.quest3 ? 1 : 0));
         }
     }
 }
