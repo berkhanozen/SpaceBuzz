@@ -12,7 +12,9 @@ ScriptsOnlyBuild:
     - EnemyManager
     - FPSCounter
     - FloatingJoystick
+    - InteractGarage
     - InteractLeaderboard
+    - InteractQuest
     - InteractRocket
     - LevelDistance
     - LevelManager
@@ -23,8 +25,10 @@ ScriptsOnlyBuild:
     - PauseManager
     - PlayerMoves
     - PlayfabManager
+    - QuestCheck
     - RotateGlowingStone
     - Score
+    - SpeederSelection
     - ThirdPersonCamera
     - TileManager
     - TimeScaleGotoBaseFix
@@ -133,17 +137,17 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
   - assembly: Assembly-CSharp
-    fullTypeName: InteractRocket
-    methodName: unlockSecondPlanet
-  - assembly: Assembly-CSharp
-    fullTypeName: InteractRocket
-    methodName: playSecondPlanet
-  - assembly: Assembly-CSharp
-    fullTypeName: InteractRocket
-    methodName: playMoon
-  - assembly: Assembly-CSharp
     fullTypeName: InteractLeaderboard
     methodName: closeLeaderboardUI
+  - assembly: Assembly-CSharp
+    fullTypeName: SpeederSelection
+    methodName: selectSpeeder1
+  - assembly: Assembly-CSharp
+    fullTypeName: SpeederSelection
+    methodName: selectSpeeder2
+  - assembly: Assembly-CSharp
+    fullTypeName: InteractQuest
+    methodName: closeQuestUI
   - assembly: Assembly-CSharp
     fullTypeName: PlayfabManager
     methodName: GetLeaderboard
@@ -153,6 +157,15 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: PlayfabManager
     methodName: SubmitNameButton
+  - assembly: Assembly-CSharp
+    fullTypeName: InteractRocket
+    methodName: playMoon
+  - assembly: Assembly-CSharp
+    fullTypeName: InteractRocket
+    methodName: playSecondPlanet
+  - assembly: Assembly-CSharp
+    fullTypeName: InteractRocket
+    methodName: unlockSecondPlanet
   - assembly: Assembly-CSharp
     fullTypeName: LevelManager
     methodName: GoToBase
@@ -329,19 +342,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5200}
     - Class: 114
-      Script: {instanceID: 5234}
+      Script: {instanceID: 5220}
     - Class: 114
-      Script: {instanceID: 5346}
+      Script: {instanceID: 5236}
     - Class: 114
-      Script: {instanceID: 5384}
+      Script: {instanceID: 5348}
     - Class: 114
-      Script: {instanceID: 5394}
+      Script: {instanceID: 5386}
     - Class: 114
-      Script: {instanceID: 5422}
+      Script: {instanceID: 5396}
     - Class: 114
-      Script: {instanceID: 5666}
+      Script: {instanceID: 5424}
     - Class: 114
-      Script: {instanceID: 5794}
+      Script: {instanceID: 5668}
+    - Class: 114
+      Script: {instanceID: 5690}
+    - Class: 114
+      Script: {instanceID: 5708}
+    - Class: 114
+      Script: {instanceID: 5800}
+    - Class: 114
+      Script: {instanceID: 5864}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -476,9 +497,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5048}
     - Class: 114
-      Script: {instanceID: 5234}
+      Script: {instanceID: 5220}
     - Class: 114
-      Script: {instanceID: 5384}
+      Script: {instanceID: 5236}
+    - Class: 114
+      Script: {instanceID: 5386}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -736,7 +759,7 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: 31001b28ef138354b21c82b2604828ca
+      Hash: b60965b147a45f4eca54bda97b1a38ef
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemyManager
@@ -796,7 +819,7 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
-      Hash: 43fc047363cfcd3505593bc3bba01136
+      Hash: 1011b5bb61a987e8a6185607304731f8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LevelDistance
@@ -1456,6 +1479,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: e5b5e604e95e8214c321f597e4baca4a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: QuestCheck
+  - hash:
+      serializedVersion: 2
       Hash: 726fcf7961cbb4108aa5be5e55b8c8bf
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
@@ -1564,6 +1593,18 @@ ScriptsOnlyBuild:
     className: PostProcessVolume
   - hash:
       serializedVersion: 2
+      Hash: f15b90c06d69699baaa8896d32d286e4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpeederSelection
+  - hash:
+      serializedVersion: 2
+      Hash: 2cff34eaaa9df71a8943575814e46e7f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: InteractGarage
+  - hash:
+      serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1612,6 +1653,12 @@ ScriptsOnlyBuild:
     className: CinemachineBlendListCamera
   - hash:
       serializedVersion: 2
+      Hash: 09361711d39b89613bfe51a55ca1056e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: InteractQuest
+  - hash:
+      serializedVersion: 2
       Hash: d6fc8d3165070298511ec776ea575626
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
@@ -1626,4 +1673,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/0.unity
   - Assets/Scenes/1.unity
-  playerPath: C:/Users/Giray/Desktop/game13.apk
+  playerPath: C:/Users/Giray/Desktop/game15.apk

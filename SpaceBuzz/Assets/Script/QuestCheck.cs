@@ -16,8 +16,11 @@ public class QuestCheck : MonoBehaviour
     public bool quest2 = false;
     public bool quest3 = false;
 
+    private bool isDone1 = false;
+    private bool isDone2 = false;
 
-
+    public GameObject Speeder2Reward;
+    public InteractGarage _interactGarage;
     private void Start()
     {
         //GÖREV SIFIRLAMA
@@ -53,21 +56,32 @@ public class QuestCheck : MonoBehaviour
             distancequest3.SetActive(false);
         }
 
-        if (PlayerPrefs.GetInt("aytasi") >= 100)
+        if (PlayerPrefs.GetInt("aytasi") >= 100 && isDone1==false)
         {
            
             collectquest1.SetActive(false);
+            isDone1 = true;
         }
-        if (PlayerPrefs.GetInt("aytasi") >= 200)
+        if (PlayerPrefs.GetInt("aytasi") >= 200 && isDone2==false)
         {
             
             collectquest2.SetActive(false);
+            isDone2 = true;
         }
 
         if (PlayerPrefs.GetInt("isUnlockSecondPlanet") != 0)
         {
             unlockPlanetQuest1.SetActive(false);
+            Speeder2Reward.SetActive(true);
+            if (_interactGarage != null)
+            {
+                _interactGarage.speeder2ButtonActive = true;
+                PlayerPrefs.SetInt("speeder2ButtonActive", (_interactGarage.speeder2ButtonActive ? 1 : 0));
+            }
+            
         }
+
+        
     }
 
 }
