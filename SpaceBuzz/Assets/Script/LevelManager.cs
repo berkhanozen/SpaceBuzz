@@ -23,7 +23,7 @@ public class LevelManager : MonoBehaviour
     {
         ads.OnDestroy();
         Time.timeScale = 1f;
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
         
     }
 }

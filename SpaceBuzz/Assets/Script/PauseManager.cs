@@ -36,7 +36,7 @@ public class PauseManager : MonoBehaviour
     public void BacktoBase()
     {
         ads.OnDestroy();
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
     }
 
     public void RestartGame()
