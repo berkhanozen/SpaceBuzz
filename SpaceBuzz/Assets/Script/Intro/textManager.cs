@@ -6,15 +6,13 @@ using UnityEngine.SceneManagement;
 public class textManager : MonoBehaviour
 {
     public GameObject[] texts;
-    
-
+  
     private bool PlayOnce=true;
-
-    
-    
 
     private void Start()
     {
+        Application.targetFrameRate = 30;
+
         texts[0].SetActive(false);
         texts[1].SetActive(false);
         texts[2].SetActive(false);
@@ -22,12 +20,8 @@ public class textManager : MonoBehaviour
         texts[4].SetActive(false);
 
 
-        
-
-
-
     }
-    private void Update()
+    private void FixedUpdate()
     {
         
         if (PlayOnce)
@@ -42,9 +36,7 @@ public class textManager : MonoBehaviour
 
             PlayOnce = false;
             
-
         }
-
 
 
     }
@@ -59,7 +51,7 @@ public class textManager : MonoBehaviour
     IEnumerator playSecondTextF()
     {
         
-        yield return new WaitForSecondsRealtime(15);
+        yield return new WaitForSeconds(7.5f);
         texts[0].SetActive(false);
         //Destroy(texts[0]);
         texts[1].SetActive(true);
@@ -69,7 +61,7 @@ public class textManager : MonoBehaviour
     IEnumerator playThirdTextF()
     {
 
-        yield return new WaitForSecondsRealtime(50);
+        yield return new WaitForSeconds(23);
         texts[1].SetActive(false);
         //Destroy(texts[1]);
         texts[2].SetActive(true);
@@ -78,7 +70,7 @@ public class textManager : MonoBehaviour
     IEnumerator playFourthTextF()
     {
 
-        yield return new WaitForSecondsRealtime(78);
+        yield return new WaitForSeconds(34);
         texts[2].SetActive(false);
         //Destroy(texts[2]);
         texts[3].SetActive(true);
@@ -87,7 +79,7 @@ public class textManager : MonoBehaviour
     IEnumerator playFinalTextF()
     {
 
-        yield return new WaitForSecondsRealtime(97);
+        yield return new WaitForSeconds(41.5f);
         texts[3].SetActive(false);
         //Destroy(texts[3]);
         texts[4].SetActive(true);

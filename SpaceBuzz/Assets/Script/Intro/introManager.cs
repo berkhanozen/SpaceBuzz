@@ -8,6 +8,8 @@ public class introManager : MonoBehaviour
     private void Start()
     {
 
+        Application.targetFrameRate = 30;
+
         if (PlayerPrefs.HasKey("HasDoneIntro"))
         {
             //SceneManager.LoadScene("Game");
@@ -29,7 +31,7 @@ public class introManager : MonoBehaviour
     IEnumerator LoadIntro()
     {
 
-        yield return new WaitForSecondsRealtime(5);
+        yield return new WaitForSecondsRealtime(2);
         SceneManager.LoadScene(1);
 
     }
@@ -37,7 +39,7 @@ public class introManager : MonoBehaviour
     IEnumerator LoadBase()
     {
 
-        yield return new WaitForSecondsRealtime(5);
+        yield return new WaitForSecondsRealtime(2);
         SceneManager.LoadScene(2);
 
     }
