@@ -13,6 +13,8 @@ public class InteractGarage : MonoBehaviour
 
     public QuestCheck _questCheck;
 
+    private bool CallMeOnce = true;
+
     private void Start()
     {
         // Reset Garage
@@ -53,14 +55,28 @@ public class InteractGarage : MonoBehaviour
     }
     private void OnTriggerStay(Collider other)
     {
-        garageUI.SetActive(true);
+        if (CallMeOnce == true)
+        {
+            garageUI.SetActive(true);
+            CallMeOnce = false;
+        }
 
     }
 
     private void OnTriggerExit(Collider other)
     {
         garageUI.SetActive(false);
+        CallMeOnce = true;
     }
+
+    public void closeGarageUI()
+    {
+        garageUI.SetActive(false);
+    }
+
+    
+
+    
 
     
 }

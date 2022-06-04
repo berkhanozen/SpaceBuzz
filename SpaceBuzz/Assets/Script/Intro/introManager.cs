@@ -11,12 +11,13 @@ public class introManager : MonoBehaviour
         if (PlayerPrefs.HasKey("HasDoneIntro"))
         {
             //SceneManager.LoadScene("Game");
-            Invoke("LoadBase", 4f);
+            StartCoroutine(LoadBase());
+
         }
         else
         {
             //SceneManager.LoadScene("Tutorial");
-            Invoke("LoadIntro", 4f);
+            StartCoroutine(LoadIntro());
         }
 
 
@@ -25,14 +26,23 @@ public class introManager : MonoBehaviour
 
 
     }
-    void LoadIntro()
+    IEnumerator LoadIntro()
     {
+
+        yield return new WaitForSecondsRealtime(5);
         SceneManager.LoadScene(1);
+
     }
-    void LoadBase()
+
+    IEnumerator LoadBase()
     {
+
+        yield return new WaitForSecondsRealtime(5);
         SceneManager.LoadScene(2);
+
     }
+
+    
 }
 
 

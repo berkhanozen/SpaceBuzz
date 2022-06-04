@@ -16,6 +16,7 @@ public class InteractRocket : MonoBehaviour
     [SerializeField] Oxygen OxygenScriptEnable;
 
     private bool isUnlockSecondPlanet;
+    private bool CallMeOnce=true;
     private void Start()
     {
         // Seviye kilit sıfırlama 
@@ -83,12 +84,25 @@ public class InteractRocket : MonoBehaviour
     }
 
 
+    
+
     private void OnTriggerStay(Collider other)
     {
-        RocketCanvas.SetActive(true);
+        if (CallMeOnce == true)
+        {
+            RocketCanvas.SetActive(true);
+            CallMeOnce = false;
+        }
+
     }
 
     private void OnTriggerExit(Collider other)
+    {
+        RocketCanvas.SetActive(false);
+        CallMeOnce = true;
+    }
+
+    public void closeRocketCanvas()
     {
         RocketCanvas.SetActive(false);
     }

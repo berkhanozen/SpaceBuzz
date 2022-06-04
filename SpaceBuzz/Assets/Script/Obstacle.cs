@@ -39,6 +39,8 @@ public class Obstacle : MonoBehaviour
 
     
 
+    
+
     private void Awake()
     {
         sound = GameObject.Find("AudioManager");
@@ -87,7 +89,8 @@ public class Obstacle : MonoBehaviour
         UI.SetActive(false);
         Time.timeScale = 1f;
         Oxygen.oxygenCylinder = 500f;
-        _skinned.enabled = true;
+        StartCoroutine(skinmeshTrue());
+        //_skinned.enabled = true;
 
         // Ekosistemi devam ettirmek için kullanýlanlar
         _controller.enabled = true;
@@ -146,6 +149,8 @@ public class Obstacle : MonoBehaviour
             _UIpausebutton.SetActive(false);
             _UIhighscore.SetActive(false);
 
+            MobileControl.leftMobileInput = false;
+            MobileControl.rightMobileInput = false;
             StartCoroutine(skinmeshFalse());
 
             
@@ -181,11 +186,16 @@ public class Obstacle : MonoBehaviour
         if (isDied)
         {
             isDied = false;
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSecondsRealtime(1f);
             Pickup();
             _skinned.enabled = false;
             AudioSource.PlayClipAtPoint(deathSound.audioClipList[deathSoundIndex], gameObject.transform.position);
         }
+    }
+    IEnumerator skinmeshTrue()
+    {
+        yield return new WaitForSecondsRealtime(0.1f);
+        _skinned.enabled = true;
     }
 
     public void calculateHighScore()
