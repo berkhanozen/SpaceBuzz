@@ -56,7 +56,11 @@ public class InteractRocket : MonoBehaviour
 
     public void playSecondPlanet()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        Oxygen.isDamaged = false;
+        OxygenScriptEnable.enabled = false;
+        Oxygen.oxygenCylinder = 500;
     }
 
     public void unlockSecondPlanet()

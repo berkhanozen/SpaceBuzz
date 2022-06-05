@@ -33,42 +33,49 @@ public class LevelDistance : MonoBehaviour
         if (Idistance == 30)
         {
             _controller.moveSpeed += 2;
+            _controller.leftRightSpeed += 0.5f;
         }
 
         if (Idistance == 80)
         {
             _controller.moveSpeed += 2;
+            _controller.leftRightSpeed += 0.5f;
         }
 
         if (Idistance == 120)
         {
             _controller.moveSpeed += 2;
+            _controller.leftRightSpeed += 0.5f;
         }
 
         if (Idistance == 180)
         {
+            _controller.leftRightSpeed += 0.5f;
             _controller.moveSpeed += 2;
         }
 
         if (Idistance == 240)
         {
             _controller.moveSpeed += 2;
+            _controller.leftRightSpeed += 0.5f;
         }
 
         if (Idistance == 350)
         {
             _controller.moveSpeed += 2;
+            _controller.leftRightSpeed += 0.5f;
         }
 
         if (Idistance == 450)
         {
             _controller.moveSpeed += 2;
-            _controller.leftRightSpeed += 1;
+            _controller.leftRightSpeed += 0.5f;
         }
 
         if (Idistance == 500)
         {
             _controller.moveSpeed += 2;
+            _controller.leftRightSpeed += 0.5f;
             _questcheck.quest1 = true;
             PlayerPrefs.SetInt("quest1", (_questcheck.quest1 ? 1 : 0));
 
@@ -77,29 +84,33 @@ public class LevelDistance : MonoBehaviour
         if (Idistance == 550)
         {
             _controller.moveSpeed += 2;
+            _controller.leftRightSpeed += 0.5f;
         }
 
         if (Idistance == 600)
         {
             _controller.moveSpeed += 2;
+            _controller.leftRightSpeed += 0.5f;
         }
 
         if (Idistance == 700)
         {
             _controller.moveSpeed += 1;
-            _controller.leftRightSpeed += 1;
+            _controller.leftRightSpeed += 0.5f;
         }
 
         if (Idistance == 1000)
         {
             _questcheck.quest2 = true;
             PlayerPrefs.SetInt("quest2", (_questcheck.quest2 ? 1 : 0));
+            _controller.leftRightSpeed += 0.5f;
         }
 
         if (Idistance == 2000)
         {
             _questcheck.quest3 = true;
             PlayerPrefs.SetInt("quest3", (_questcheck.quest3 ? 1 : 0));
+            _controller.leftRightSpeed += 0.5f;
         }
     }
 }

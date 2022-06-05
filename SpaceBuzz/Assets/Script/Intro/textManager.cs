@@ -70,7 +70,7 @@ public class textManager : MonoBehaviour
     IEnumerator playFourthTextF()
     {
 
-        yield return new WaitForSeconds(34);
+        yield return new WaitForSeconds(35f);
         texts[2].SetActive(false);
         //Destroy(texts[2]);
         texts[3].SetActive(true);
@@ -79,7 +79,7 @@ public class textManager : MonoBehaviour
     IEnumerator playFinalTextF()
     {
 
-        yield return new WaitForSeconds(41.5f);
+        yield return new WaitForSeconds(43.5f);
         texts[3].SetActive(false);
         //Destroy(texts[3]);
         texts[4].SetActive(true);
