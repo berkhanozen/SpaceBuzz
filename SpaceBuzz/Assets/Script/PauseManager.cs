@@ -13,6 +13,8 @@ public class PauseManager : MonoBehaviour
 
     public AudioSource _audio;
 
+    
+
     private void Start()
     {
         PauseButton.SetActive(false);
@@ -35,6 +37,15 @@ public class PauseManager : MonoBehaviour
         Time.timeScale = 1;
         PauseScreen.SetActive(false);
         _audio.UnPause();
+
+        if(PlayerPrefs.GetInt("isMusicOpen") != 0) //True
+        {
+            _audio.Play();
+        }
+        if (PlayerPrefs.GetInt("isMusicOpen") != 1) //False
+        {
+            _audio.Stop();
+        }
 
     }
 
