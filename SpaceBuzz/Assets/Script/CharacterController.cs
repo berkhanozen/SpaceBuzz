@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CharacterController : MonoBehaviour
 {
-    public float moveSpeed = 2;
-    public float leftRightSpeed = 2;
+    public float moveSpeed;
+    public float leftRightSpeed;
 
     [SerializeField] private Animator anim;
 
@@ -13,8 +13,6 @@ public class CharacterController : MonoBehaviour
     private void Start()
     {
         anim.SetBool("run", true);
-
-        //FPS x Kilitle
         Application.targetFrameRate = 120;
     }
 
