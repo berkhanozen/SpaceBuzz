@@ -9,6 +9,8 @@ public class CameraSwitch : MonoBehaviour
     public GameObject TapToStartText;
     public GameObject gameLogo;
 
+    public GameObject[] tutorialTexts;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +25,10 @@ public class CameraSwitch : MonoBehaviour
             CameraChange();
             TapToStartText.SetActive(false);
             gameLogo.SetActive(false);
+            tutorialTexts[0].SetActive(true);
+            tutorialTexts[1].SetActive(true);
+            tutorialTexts[2].SetActive(true);
+            tutorialTexts[3].SetActive(true);
         }
     }
 

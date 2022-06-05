@@ -2476,6 +2476,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31fdb1b63dfbc68449379943a80f4b4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &1798866275 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1402509350, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
+  m_PrefabInstance: {fileID: 8559491151553935520}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1806259572
 GameObject:
   m_ObjectHideFlags: 0
@@ -4500,6 +4505,7 @@ MonoBehaviour:
   PauseButton: {fileID: 5243493578470552754}
   OxygenScriptEnable: {fileID: 1402509339}
   ads: {fileID: 1301266124}
+  _audio: {fileID: 1798866275}
 --- !u!222 &5243493578470552758
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5607,6 +5613,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1402509350, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1402509350, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
+      propertyPath: m_Volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1402509350, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 368f9890cb10bc249bc155f1364a45e2, type: 3}
+    - target: {fileID: 1402509350, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8559491151455760494, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
       propertyPath: moveSpeed
       value: 10
@@ -5719,6 +5741,10 @@ PrefabInstance:
       propertyPath: _UIres
       value: 
       objectReference: {fileID: 1426956369}
+    - target: {fileID: 8559491152191635898, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
+      propertyPath: _audio
+      value: 
+      objectReference: {fileID: 1798866275}
     - target: {fileID: 8559491152191635898, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
       propertyPath: _UIScore
       value: 

@@ -37,7 +37,7 @@ public class Obstacle : MonoBehaviour
     public PlayfabManager _playfabmanager;
     public AdsManager ads;
 
-    
+    public AudioSource _audio;
 
     
 
@@ -105,7 +105,8 @@ public class Obstacle : MonoBehaviour
         _UIpausebutton.SetActive(true);
         _UIhighscore.SetActive(true);
 
-        
+        _audio.UnPause();
+
         callMeOnce = true;
         isDied = true;
         _UIres.SetActive(false);
@@ -152,8 +153,8 @@ public class Obstacle : MonoBehaviour
             MobileControl.leftMobileInput = false;
             MobileControl.rightMobileInput = false;
             StartCoroutine(skinmeshFalse());
+            _audio.Pause();
 
-            
             if (PlayerPrefs.GetInt("HighScore") <= freezedHighScore || PlayerPrefs.GetInt("HighScore") == 0)
             {
                 

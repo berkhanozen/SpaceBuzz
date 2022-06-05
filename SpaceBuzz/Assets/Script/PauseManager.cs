@@ -11,6 +11,8 @@ public class PauseManager : MonoBehaviour
     [SerializeField] Oxygen OxygenScriptEnable;
     public AdsManager ads;
 
+    public AudioSource _audio;
+
     private void Start()
     {
         PauseButton.SetActive(false);
@@ -25,12 +27,15 @@ public class PauseManager : MonoBehaviour
     {
         Time.timeScale = 0;
         PauseScreen.SetActive(true);
+        _audio.Pause();
     }
 
     public void ResumeGame()
     {
         Time.timeScale = 1;
         PauseScreen.SetActive(false);
+        _audio.UnPause();
+
     }
 
     public void BacktoBase()
