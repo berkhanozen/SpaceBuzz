@@ -29,6 +29,8 @@ public class Obstacle : MonoBehaviour
     [SerializeField] private SkinnedMeshRenderer _skinned;
 
     [SerializeField] private TextMeshProUGUI highScoreText;
+
+    [SerializeField] private CapsuleCollider capCol;
     private bool freezeDistance=false;
     private int freezedHighScore;
     private bool callMeOnce=true;
@@ -38,6 +40,8 @@ public class Obstacle : MonoBehaviour
     public AdsManager ads;
 
     public AudioSource _audio;
+
+    
 
     
 
@@ -203,9 +207,22 @@ public class Obstacle : MonoBehaviour
     
     IEnumerator WaitRes()
     {
-        Time.timeScale = 0F;
-        yield return new WaitForSecondsRealtime(1);
-        Time.timeScale = 1f;
+        capCol.enabled = false;
+        _skinned.enabled = false;
+        float tempSpeed = _controller.moveSpeed;
+        _controller.moveSpeed = 0;
+        yield return new WaitForSecondsRealtime(0.25f);
+        _skinned.enabled = true;
+        yield return new WaitForSecondsRealtime(0.25f);
+        _skinned.enabled = false;
+        yield return new WaitForSecondsRealtime(0.25f);
+        _skinned.enabled = true;
+        yield return new WaitForSecondsRealtime(0.25f);
+        _skinned.enabled = false;
+        yield return new WaitForSecondsRealtime(0.25f);
+        _controller.moveSpeed = tempSpeed;
+        _skinned.enabled = true;
+        capCol.enabled = true;
     }
 
     public void calculateHighScore()

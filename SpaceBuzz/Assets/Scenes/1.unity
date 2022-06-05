@@ -2569,6 +2569,16 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: 1402509350, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
   m_PrefabInstance: {fileID: 8559491151553935520}
   m_PrefabAsset: {fileID: 0}
+--- !u!54 &1798866279 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 8559491151455760497, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
+  m_PrefabInstance: {fileID: 8559491151553935520}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1798866282 stripped
+CapsuleCollider:
+  m_CorrespondingSourceObject: {fileID: 8559491152191635902, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
+  m_PrefabInstance: {fileID: 8559491151553935520}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1806259572
 GameObject:
   m_ObjectHideFlags: 0
@@ -5725,6 +5735,10 @@ PrefabInstance:
       propertyPath: leftRightSpeed
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8559491151455760497, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
+      propertyPath: m_Constraints
+      value: 116
+      objectReference: {fileID: 0}
     - target: {fileID: 8559491151719043643, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
       propertyPath: m_Name
       value: Astronaut
@@ -5773,6 +5787,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8559491151722225461, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8559491152191635876, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
       propertyPath: scoretext
       value: 
@@ -5798,6 +5816,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 5243493578275463788}
     - target: {fileID: 8559491152191635886, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
+      propertyPath: Idistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559491152191635886, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
       propertyPath: _questcheck
       value: 
       objectReference: {fileID: 1301266125}
@@ -5822,6 +5844,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 344774299}
     - target: {fileID: 8559491152191635898, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1798866279}
+    - target: {fileID: 8559491152191635898, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
       propertyPath: ads
       value: 
       objectReference: {fileID: 1301266124}
@@ -5837,6 +5863,10 @@ PrefabInstance:
       propertyPath: _audio
       value: 
       objectReference: {fileID: 1798866275}
+    - target: {fileID: 8559491152191635898, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
+      propertyPath: capCol
+      value: 
+      objectReference: {fileID: 1798866282}
     - target: {fileID: 8559491152191635898, guid: 870b89af1b26e004487bbfc19e8c24ea, type: 3}
       propertyPath: _UIScore
       value: 
