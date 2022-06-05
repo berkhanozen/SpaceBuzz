@@ -9,6 +9,7 @@ public class InteractRocket : MonoBehaviour
 {
     [SerializeField] private GameObject RocketCanvas;
     [SerializeField] private TextMeshProUGUI aytasitext;
+    [SerializeField] private TextMeshProUGUI utatasitext;
     [SerializeField] private GameObject SecondPlanetButton;
     [SerializeField] private GameObject SecondPlanetUnlockButton;
     [SerializeField] private GameObject Uyari1;
@@ -19,6 +20,7 @@ public class InteractRocket : MonoBehaviour
     private bool CallMeOnce=true;
     private void Start()
     {
+        
         // Seviye kilit sıfırlama 
         //isUnlockSecondPlanet = false;
         //PlayerPrefs.SetInt("isUnlockSecondPlanet", (isUnlockSecondPlanet ? 1 : 0));
@@ -31,7 +33,10 @@ public class InteractRocket : MonoBehaviour
         Score.aytasi = PlayerPrefs.GetInt("aytasi");
         aytasitext.text = "Toplanan Luna Tasi: " + Score.aytasi.ToString();
 
-        if(isUnlockSecondPlanet == true)
+        ScoreUTA.utatasi = PlayerPrefs.GetInt("utatasi");
+        utatasitext.text = "Toplanan Uta Tasi: " + ScoreUTA.utatasi.ToString();
+
+        if (isUnlockSecondPlanet == true)
         {
             SecondPlanetUnlockButton.SetActive(false);
             SecondPlanetButton.SetActive(true);

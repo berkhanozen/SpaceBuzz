@@ -8,6 +8,7 @@ using MusicFilesNM;
 public class Score : MonoBehaviour
 {
     public static int aytasi;
+    
     [SerializeField] private TextMeshProUGUI scoretext;
     [SerializeField] private TextMeshProUGUI gameOverScoretext;
 
