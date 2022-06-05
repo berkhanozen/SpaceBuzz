@@ -20,10 +20,10 @@ public class Obstacle : MonoBehaviour
 
     [SerializeField] private GameObject _UIScore;
     [SerializeField] private GameObject _UIOxygen;
-    [SerializeField] private GameObject _UIleftbutton;
-    [SerializeField] private GameObject _UIrightbutton;
-    [SerializeField] private GameObject _UIpausebutton;
-    [SerializeField] private GameObject _UIhighscore;
+    [SerializeField] private GameObject _UILeftButton;
+    [SerializeField] private GameObject _UIRightButton;
+    [SerializeField] private GameObject _UIPauseButton;
+    [SerializeField] private GameObject _UIHighscore;
     [SerializeField] private GameObject _UIres;
 
     [SerializeField] private SkinnedMeshRenderer _skinned;
@@ -87,7 +87,7 @@ public class Obstacle : MonoBehaviour
     public void Resurrection()
     {
         UI.SetActive(false);
-        Time.timeScale = 1f;
+        //Time.timeScale = 1f;
         Oxygen.oxygenCylinder = 500f;
         StartCoroutine(skinmeshTrue());
         //_skinned.enabled = true;
@@ -100,10 +100,10 @@ public class Obstacle : MonoBehaviour
         _UIDistance.SetActive(true);
         _UIScore.SetActive(true);
         _UIOxygen.SetActive(true);
-        _UIleftbutton.SetActive(true);
-        _UIrightbutton.SetActive(true);
-        _UIpausebutton.SetActive(true);
-        _UIhighscore.SetActive(true);
+        _UILeftButton.SetActive(true);
+        _UIRightButton.SetActive(true);
+        _UIPauseButton.SetActive(true);
+        _UIHighscore.SetActive(true);
 
         _audio.UnPause();
 
@@ -113,7 +113,8 @@ public class Obstacle : MonoBehaviour
 
         _distance.Idistance = freezedHighScore;
 
-        
+        StartCoroutine(WaitRes());
+
     }
 
     // ADS
@@ -145,10 +146,10 @@ public class Obstacle : MonoBehaviour
             _UIDistance.SetActive(false);
             _UIScore.SetActive(false);
             _UIOxygen.SetActive(false);
-            _UIleftbutton.SetActive(false);
-            _UIrightbutton.SetActive(false);
-            _UIpausebutton.SetActive(false);
-            _UIhighscore.SetActive(false);
+            _UILeftButton.SetActive(false);
+            _UIRightButton.SetActive(false);
+            _UIPauseButton.SetActive(false);
+            _UIHighscore.SetActive(false);
 
             MobileControl.leftMobileInput = false;
             MobileControl.rightMobileInput = false;
@@ -197,6 +198,14 @@ public class Obstacle : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(0.1f);
         _skinned.enabled = true;
+    }
+
+    
+    IEnumerator WaitRes()
+    {
+        Time.timeScale = 0F;
+        yield return new WaitForSecondsRealtime(1);
+        Time.timeScale = 1f;
     }
 
     public void calculateHighScore()
