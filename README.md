@@ -134,13 +134,13 @@ Alınan kararlar: Kamera için ayarlamalar yapılmıştır. Karaktere ve oyun i�
 
 •**Sprint board update: Sprint board screenshotları:**
 
-![Backlog 1](https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint3_Documents/backlog1.PNG)
-![Backlog 2](https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint3_Documents/backlog2.PNG) 
-![Backlog 3](https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint3_Documents/backlog3.PNG) 
+![Backlog 1] <img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint3_Documents/backlog1.PNG" width="200" height="200">
+![Backlog 2] <img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint3_Documents/backlog2.PNG" width="200" height="200">
+![Backlog 3] <img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint3_Documents/backlog3.PNG" width="200" height="200">
 
 •**Ürün durumu: Ekran Görüntüleri:** 
 
-![Screenshot 1](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint3_Documents/main.jpeg?raw=true)
+![Screenshot 1]<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint3_Documents/main.jpeg" width="200" height="200">
 
 •**Sprint Review:** 
 
