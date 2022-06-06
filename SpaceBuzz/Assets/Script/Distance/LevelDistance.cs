@@ -76,8 +76,12 @@ public class LevelDistance : MonoBehaviour
         {
             _controller.moveSpeed += 2;
             _controller.leftRightSpeed += 0.5f;
-            _questcheck.quest1 = true;
-            PlayerPrefs.SetInt("quest1", (_questcheck.quest1 ? 1 : 0));
+            if (_questcheck != null)
+            {
+                _questcheck.quest1 = true;
+                PlayerPrefs.SetInt("quest1", (_questcheck.quest1 ? 1 : 0));
+            }
+            
 
         }
 
