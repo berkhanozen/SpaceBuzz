@@ -18,25 +18,23 @@ Space Buzz
 
 ## Ürün Açıklaması
 
-Astronot Buzz, gerekli eğitimleri tamamlayıp Uzay Taşları Görevine katılmaya hak kazanmış astronotlardan biridir. Görevi Samanyolu Galaksisini gezerek uzaylılara yakalanmadan değerli taşları toplamak ve gezegenlerde mahsur kalmış arkadaşlarını kurtarmaktır. Jüpiter gezegenindeki astronot Neil yeterli taşları toplayamadığı ve yakıt alamadığı için gezegenden ayrılamaz, görev Neil’a yakıt ya da değerli taş götürmektir. Buzz, arkadaşlarının ihtiyaçlarına göre seviye değiştirebilecektir. Arkadaşlarının yanına gidebilmesi için aracını geliştirmelidir, görevlerini tamamlandıkça seviye artar. Topladığı taşlarla ana istasyonda bulunan marketten yakıt, uzay gemisi ya da astronot kıyafeti alabilir. Eğer taşları o gezegendeki uzay gemisini almaya yetmiyorsa Buzz yakıt alarak diğer gezegenlere gidip istenilen taşları toplamaya devam etmelidir.
+Astronot Buzz, gerekli eğitimleri tamamlayıp Uzay Taşları Görevine katılmaya hak kazanmış astronotlardan biridir. Görevi galaksiyi gezerek uzaylılara yakalanmadan değerli taşları toplamak ve gezegenlerde mahsur kalmış arkadaşlarına yardım etmektir. Buzz, arkadaşlarının ihtiyaçlarına göre seviye değiştirebilecektir. Görevlerini tamamlandıkça seviye artar. Seviye geçtikçe ana istasyonda bulunan garajdan uzay gemisi değişimi yapabilir.
 
 ## Ürün Özellikleri
 
-•	Sonsuz runner ve Hyper Casual
+• Sonsuz runner ve Hyper Casual
 
-•	Koşu sırasında karakterin kaçınması gereken engellerle karşılaşma
+• Koşu sırasında karakterin kaçınması gereken engellerle karşılaşma
 
-•	Koşu esnasında ödüllerle karşılaşma
+• Koşu esnasında ödüllerle karşılaşma
 
-•	Seviyeler arası geçiş yapma
+• Seviyeler arası geçiş yapma
 
-•	Ana istasyonda gezinme
+• Ana istasyonda gezinme
 
-•	Karaktere verilen görevleri tamamlama
+• Karaktere verilen görevleri tamamlama
 
-•	Her görev tamamlandığında oyuncuya ödül verme
-
-•	Market kısmında taş değişimi ve yakıt, uzay gemisi, astronot kıyafeti satın alımı yapabilme
+• Görevler tamamlandığında oyuncuya ödül verme
 
 ## Hedef Kitle
 
@@ -124,4 +122,37 @@ Alınan kararlar: Kamera için ayarlamalar yapılmıştır. Karaktere ve oyun i�
 
 # Sprint 3
 
----
+•	**Sprint Notları:** Miro Board’da backloglar yapılacak değişikliklere göre düzenlenmiştir. İstenilen ilerleme seviyesi bu sprintte de sağlanmıştır. Proje teslim tarihinin yaklaşmasıyla Miro Board’da bulunan Kanban düzenlenerek son haline getirilmiştir. Proje boyunca kullanılan tüm assetler Miro Board’a eklenmiştir.
+
+•	**Sprint içinde tamamlanması tahmin edilen puan:** 135 puan
+
+•	**Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 410 puanlık backlog bulunmaktadır. Üçüncü sprintte tahmini puan 135 olarak tamamlanmıştır. 
+
+•	**Backlog düzeni ve Story seçimleri:** Backlog düzeni oyun tasarımında yapılan değişikliklere göre güncellenmiştir. Gerekli gözüken yerlerde işin tanımı daha da detaylı açıklanmıştır. İşlerin hangi ekip üyelerince tamamlanacağını göstermek için görevlere ekip üyeleri atanmıştır. Yapılacak bazı görevlerde birlikte çalışıldığı için yardımcı olan ekip üyelerinin isimleri ve tamamladıkları işler backlogların içine eklenmiştir. Bitenler kısmına tamamlanan işlerin tahmini puanları eklenmiştir. 
+
+•	**Daily Scrum:** Daily Scrum toplantıları oyunun son halinin görüşülmesi için Slack Call üzerinden yapılmaya devam edilmiştir. Gerekli görüldüğü anlarda ekip üyeleri (çoğunlukla geliştiriciler) tarafından Slack Call ile kısa görüşmeler yapılmıştır. Proje teslimine kalan süre göz önünde bulunduran ekip üyeleri önemli gördükleri bir şeyi WhatsApp grubunda paylaşarak hızlı geri dönüşler almıştır. Her commit öncesi yapılanlar grup üzerinden ekip ile paylaşılmaya devam edilmiştir. Bunun yanı sıra tüm ekip üyelerinin katıldığı Scrum buluşmaları da yapılmıştır. [Sprint 3 Daily Scrum Chats](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint3_Documents/ScrumToplantilari.docx?raw=true)
+
+•	**Sprint board update: Sprint board screenshotları:**
+
+![Backlog 1](https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint3_Documents/backlog1.PNG)
+![Backlog 2](https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint3_Documents/backlog2.PNG) 
+![Backlog 3](https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint3_Documents/backlog3.PNG) 
+
+•	**Ürün durumu: Ekran Görüntüleri:** 
+
+![Screenshot 1](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint3_Documents/main.PNG?raw=true)
+
+•	**Sprint Review:** 
+Oyun ve ekip ismi için logo tasarımları yapıldı. Yeni seviyenin tasarımı tamamlandı. Space Buzz için oyun tasarım belgesi hazırlandı. 
+Sprint Review katılımcıları: Batuhan Özkan, Berkhan Özen, Fatih Şeker, Ünal Giray Ergün, Yıldız İşleyen
+•	Sprint Retrospective:
+  	Bu süreçte neleri iyi yaptık?
+    o	Verilen görevler zamanında yapıldı.
+    o	Ekip üyeleri planlanan her toplantıya katılım sağladı.
+    o	Ekip üyeleri uyumlu çalıştı.
+    o	Oyun için belirtilen fikir önerileri dikkate alındı ve üzerine konuşuldu.
+  	İleriki süreçler için neleri daha iyi yapabiliriz?
+    o	Github Branch kısmında daha fazla aktif olunabilir.
+
+-Diğer Notlar:
+  •	Kullanılan tüm assetler Miro Board’a eklenmiştir. Miro linkinden ulaşılabilir.
