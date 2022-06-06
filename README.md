@@ -143,16 +143,19 @@ Alınan kararlar: Kamera için ayarlamalar yapılmıştır. Karaktere ve oyun i�
 ![Screenshot 1](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint3_Documents/main.jpeg?raw=true)
 
 •	**Sprint Review:** 
-Oyun ve ekip ismi için logo tasarımları yapıldı. Yeni seviyenin tasarımı tamamlandı. Space Buzz için oyun tasarım belgesi hazırlandı. 
-Sprint Review katılımcıları: Batuhan Özkan, Berkhan Özen, Fatih Şeker, Ünal Giray Ergün, Yıldız İşleyen
-•	Sprint Retrospective:
-  	Bu süreçte neleri iyi yaptık?
-    o	Verilen görevler zamanında yapıldı.
-    o	Ekip üyeleri planlanan her toplantıya katılım sağladı.
-    o	Ekip üyeleri uyumlu çalıştı.
-    o	Oyun için belirtilen fikir önerileri dikkate alındı ve üzerine konuşuldu.
-  	İleriki süreçler için neleri daha iyi yapabiliriz?
-    o	Github Branch kısmında daha fazla aktif olunabilir.
 
--Diğer Notlar:
-  •	Kullanılan tüm assetler Miro Board’a eklenmiştir. Miro linkinden ulaşılabilir.
+Oyun ve ekip ismi için logo tasarımları yapıldı. Yeni seviyenin tasarımı tamamlandı. Space Buzz için oyun tasarım belgesi hazırlandı. 
+
+**Sprint Review katılımcıları:** Batuhan Özkan, Berkhan Özen, Fatih Şeker, Ünal Giray Ergün, Yıldız İşleyen
+
+•	**Sprint Retrospective:**
+	- Bu süreçte neleri iyi yaptık.
+  	- Verilen görevler zamanında yapıldı.
+  	- Ekip üyeleri planlanan her toplantıya katılım sağladı.
+  	- Ekip üyeleri uyumlu çalıştı.
+  	- Oyun için belirtilen fikir önerileri dikkate alındı ve üzerine konuşuldu.
+  -	İleriki süreçler için neleri daha iyi yapabiliriz. 
+  	-	Github Branch kısmında daha fazla aktif olunabilir.
+
+- Diğer Notlar:
+  - Kullanılan tüm assetler Miro Board’a eklenmiştir. Miro linkinden ulaşılabilir.
