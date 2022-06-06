@@ -68,7 +68,7 @@ Astronot Buzz, gerekli eğitimleri tamamlayıp Uzay Taşları Görevine katılma
 
 - **Ürün Durumu::** Ekran görüntüleri
 
-  <img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint1_Documents/product1.png" width="800" height="400">
+  <img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint1_Documents/product1.png" width="750" height="400">
 
 - **Sprint Review:**
 
@@ -102,9 +102,7 @@ Alınan kararlar: Miro Board’da bulunan backlog kısmı için düzenleme yapı
  
 • **Ürün durumu:** Ekran Görüntüleri:
 
-<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint2_Documents/product1.PNG" width="300" height="600">
-<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint2_Documents/product2.PNG" width="300" height="600">
-<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint2_Documents/product_base.PNG" width="300" height="600">
+<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint2_Documents/product1.PNG" width="300" height="600"><img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint2_Documents/product2.PNG" width="300" height="600"><img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint2_Documents/product_base.PNG" width="300" height="600">
      
 •**Sprint Review:** 
 
@@ -159,3 +157,4 @@ Oyun ve ekip ismi için logo tasarımları yapıldı. Yeni seviyenin tasarımı 
 
 - Diğer Notlar:
 	- Kullanılan tüm assetler Miro Board’a eklenmiştir. Miro linkinden ulaşılabilir.
+	- Oyunumuzun **Game Design Document**'ini indirmek için: [Game Design Document](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint3_Documents/SpaceBuzz_GDD.pdf?raw=true)
