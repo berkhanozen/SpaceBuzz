@@ -140,7 +140,7 @@ Alınan kararlar: Kamera için ayarlamalar yapılmıştır. Karaktere ve oyun i�
 
 •	**Ürün durumu: Ekran Görüntüleri:** 
 
-![Screenshot 1](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint3_Documents/main.PNG?raw=true)
+![Screenshot 1](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint3_Documents/main.jpeg?raw=true)
 
 •	**Sprint Review:** 
 Oyun ve ekip ismi için logo tasarımları yapıldı. Yeni seviyenin tasarımı tamamlandı. Space Buzz için oyun tasarım belgesi hazırlandı. 
