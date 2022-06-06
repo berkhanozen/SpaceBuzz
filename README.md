@@ -106,7 +106,7 @@ Alınan kararlar: Miro Board’da bulunan backlog kısmı için düzenleme yapı
 ![Screenshot 2](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint2_Documents/product2.PNG?raw=true)
 ![Screenshot 3](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint2_Documents/product_base.PNG?raw=true)
      
-•	**Sprint Review:** 
+•**Sprint Review:** 
 
 Alınan kararlar: Kamera için ayarlamalar yapılmıştır. Karaktere ve oyun içi nesnelere gerekli görülen particle sistemler eklenmiştir. Eklenecek görsel efektler bir sonraki sprint’e aktarılmıştır.
 
@@ -122,39 +122,39 @@ Alınan kararlar: Kamera için ayarlamalar yapılmıştır. Karaktere ve oyun i�
 
 # Sprint 3
 
-•	**Sprint Notları:** Miro Board’da backloglar yapılacak değişikliklere göre düzenlenmiştir. İstenilen ilerleme seviyesi bu sprintte de sağlanmıştır. Proje teslim tarihinin yaklaşmasıyla Miro Board’da bulunan Kanban düzenlenerek son haline getirilmiştir. Proje boyunca kullanılan tüm assetler Miro Board’a eklenmiştir.
+•**Sprint Notları:** Miro Board’da backloglar yapılacak değişikliklere göre düzenlenmiştir. İstenilen ilerleme seviyesi bu sprintte de sağlanmıştır. Proje teslim tarihinin yaklaşmasıyla Miro Board’da bulunan Kanban düzenlenerek son haline getirilmiştir. Proje boyunca kullanılan tüm assetler Miro Board’a eklenmiştir.
 
-•	**Sprint içinde tamamlanması tahmin edilen puan:** 135 puan
+•**Sprint içinde tamamlanması tahmin edilen puan:** 135 puan
 
-•	**Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 410 puanlık backlog bulunmaktadır. Üçüncü sprintte tahmini puan 135 olarak tamamlanmıştır. 
+•**Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 410 puanlık backlog bulunmaktadır. Üçüncü sprintte tahmini puan 135 olarak tamamlanmıştır. 
 
-•	**Backlog düzeni ve Story seçimleri:** Backlog düzeni oyun tasarımında yapılan değişikliklere göre güncellenmiştir. Gerekli gözüken yerlerde işin tanımı daha da detaylı açıklanmıştır. İşlerin hangi ekip üyelerince tamamlanacağını göstermek için görevlere ekip üyeleri atanmıştır. Yapılacak bazı görevlerde birlikte çalışıldığı için yardımcı olan ekip üyelerinin isimleri ve tamamladıkları işler backlogların içine eklenmiştir. Bitenler kısmına tamamlanan işlerin tahmini puanları eklenmiştir. 
+•**Backlog düzeni ve Story seçimleri:** Backlog düzeni oyun tasarımında yapılan değişikliklere göre güncellenmiştir. Gerekli gözüken yerlerde işin tanımı daha da detaylı açıklanmıştır. İşlerin hangi ekip üyelerince tamamlanacağını göstermek için görevlere ekip üyeleri atanmıştır. Yapılacak bazı görevlerde birlikte çalışıldığı için yardımcı olan ekip üyelerinin isimleri ve tamamladıkları işler backlogların içine eklenmiştir. Bitenler kısmına tamamlanan işlerin tahmini puanları eklenmiştir. 
 
-•	**Daily Scrum:** Daily Scrum toplantıları oyunun son halinin görüşülmesi için Slack Call üzerinden yapılmaya devam edilmiştir. Gerekli görüldüğü anlarda ekip üyeleri (çoğunlukla geliştiriciler) tarafından Slack Call ile kısa görüşmeler yapılmıştır. Proje teslimine kalan süre göz önünde bulunduran ekip üyeleri önemli gördükleri bir şeyi WhatsApp grubunda paylaşarak hızlı geri dönüşler almıştır. Her commit öncesi yapılanlar grup üzerinden ekip ile paylaşılmaya devam edilmiştir. Bunun yanı sıra tüm ekip üyelerinin katıldığı Scrum buluşmaları da yapılmıştır. [Sprint 3 Daily Scrum Chats](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint3_Documents/ScrumToplantilari.docx?raw=true)
+•**Daily Scrum:** Daily Scrum toplantıları oyunun son halinin görüşülmesi için Slack Call üzerinden yapılmaya devam edilmiştir. Gerekli görüldüğü anlarda ekip üyeleri (çoğunlukla geliştiriciler) tarafından Slack Call ile kısa görüşmeler yapılmıştır. Proje teslimine kalan süre göz önünde bulunduran ekip üyeleri önemli gördükleri bir şeyi WhatsApp grubunda paylaşarak hızlı geri dönüşler almıştır. Her commit öncesi yapılanlar grup üzerinden ekip ile paylaşılmaya devam edilmiştir. Bunun yanı sıra tüm ekip üyelerinin katıldığı Scrum buluşmaları da yapılmıştır. [Sprint 3 Daily Scrum Chats](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint3_Documents/ScrumToplantilari.docx?raw=true)
 
-•	**Sprint board update: Sprint board screenshotları:**
+•**Sprint board update: Sprint board screenshotları:**
 
 ![Backlog 1](https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint3_Documents/backlog1.PNG)
 ![Backlog 2](https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint3_Documents/backlog2.PNG) 
 ![Backlog 3](https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint3_Documents/backlog3.PNG) 
 
-•	**Ürün durumu: Ekran Görüntüleri:** 
+•**Ürün durumu: Ekran Görüntüleri:** 
 
 ![Screenshot 1](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint3_Documents/main.jpeg?raw=true)
 
-•	**Sprint Review:** 
+•**Sprint Review:** 
 
 Oyun ve ekip ismi için logo tasarımları yapıldı. Yeni seviyenin tasarımı tamamlandı. Space Buzz için oyun tasarım belgesi hazırlandı. 
 
 **Sprint Review katılımcıları:** Batuhan Özkan, Berkhan Özen, Fatih Şeker, Ünal Giray Ergün, Yıldız İşleyen
 
-•	**Sprint Retrospective:**
-	- Bu süreçte neleri iyi yaptık.
-  	- Verilen görevler zamanında yapıldı.
-  	- Ekip üyeleri planlanan her toplantıya katılım sağladı.
-  	- Ekip üyeleri uyumlu çalıştı.
-  	- Oyun için belirtilen fikir önerileri dikkate alındı ve üzerine konuşuldu.
-  -	İleriki süreçler için neleri daha iyi yapabiliriz. 
+•**Sprint Retrospective:**
+- Bu süreçte neleri iyi yaptık.
+	- Verilen görevler zamanında yapıldı.
+	- Ekip üyeleri planlanan her toplantıya katılım sağladı.
+	- Ekip üyeleri uyumlu çalıştı.
+	- Oyun için belirtilen fikir önerileri dikkate alındı ve üzerine konuşuldu.
+  - İleriki süreçler için neleri daha iyi yapabiliriz. 
   	-	Github Branch kısmında daha fazla aktif olunabilir.
 
 - Diğer Notlar:
