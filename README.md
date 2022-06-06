@@ -154,8 +154,8 @@ Oyun ve ekip ismi için logo tasarımları yapıldı. Yeni seviyenin tasarımı 
 	- Ekip üyeleri planlanan her toplantıya katılım sağladı.
 	- Ekip üyeleri uyumlu çalıştı.
 	- Oyun için belirtilen fikir önerileri dikkate alındı ve üzerine konuşuldu.
-  - İleriki süreçler için neleri daha iyi yapabiliriz. 
-  	-	Github Branch kısmında daha fazla aktif olunabilir.
+- İleriki süreçler için neleri daha iyi yapabiliriz.
+	- Github Branch kısmında daha fazla aktif olunabilir.
 
 - Diğer Notlar:
-  - Kullanılan tüm assetler Miro Board’a eklenmiştir. Miro linkinden ulaşılabilir.
+	- Kullanılan tüm assetler Miro Board’a eklenmiştir. Miro linkinden ulaşılabilir.
