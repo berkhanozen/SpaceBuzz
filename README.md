@@ -64,11 +64,11 @@ Astronot Buzz, gerekli eğitimleri tamamlayıp Uzay Taşları Görevine katılma
 
 - **Sprint board update:** Sprint board screenshotları:
 
-<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint2_Documents/backlog1.PNG" width="500" height="400">
+<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint1_Documents/backlog1.PNG" width="600" height="400">
 
 - **Ürün Durumu::** Ekran görüntüleri
 
-  <img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint1_Documents/product1.PNG" width="700" height="600">
+  <img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint1_Documents/product1.PNG" width="800" height="600">
 
 - **Sprint Review:**
 
@@ -98,13 +98,13 @@ Alınan kararlar: Miro Board’da bulunan backlog kısmı için düzenleme yapı
 
 •	**Sprint board update:** Sprint board screenshotları:
 
-<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint2_Documents/backlog1.PNG" width="500" height="400"> 
+<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint2_Documents/backlog1.PNG" width="600" height="400"> 
  
 • **Ürün durumu:** Ekran Görüntüleri:
 
-<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint2_Documents/product1.PNG" width="700" height="600">
-<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint2_Documents/product2.PNG" width="700" height="600">
-<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint2_Documents/product_base.PNG" width="700" height="600">
+<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint2_Documents/product1.PNG" width="150" height="600">
+<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint2_Documents/product2.PNG" width="150" height="600">
+<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint2_Documents/product_base.PNG" width="150" height="600">
      
 •**Sprint Review:** 
 
@@ -134,13 +134,13 @@ Alınan kararlar: Kamera için ayarlamalar yapılmıştır. Karaktere ve oyun i�
 
 •**Sprint board update: Sprint board screenshotları:**
 
-<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint3_Documents/backlog1.PNG" width="500" height="400">
-<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint3_Documents/backlog2.PNG" width="500" height="400">
-<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint3_Documents/backlog3.PNG" width="500" height="400">
+<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint3_Documents/backlog1.PNG" width="600" height="400">
+<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint3_Documents/backlog2.PNG" width="600" height="400">
+<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint3_Documents/backlog3.PNG" width="600" height="400">
 
 •**Ürün durumu: Ekran Görüntüleri:** 
 
-<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint3_Documents/main.jpeg" width="700" height="600">
+<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint3_Documents/main.jpeg" width="800" height="600">
 
 •**Sprint Review:** 
 
