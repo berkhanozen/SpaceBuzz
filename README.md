@@ -68,7 +68,7 @@ Astronot Buzz, gerekli eğitimleri tamamlayıp Uzay Taşları Görevine katılma
 
 - **Ürün Durumu::** Ekran görüntüleri
 
-  <img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint1_Documents/product1.PNG" width="800" height="600">
+  <img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint1_Documents/product1.png" width="800" height="400">
 
 - **Sprint Review:**
 
@@ -102,9 +102,9 @@ Alınan kararlar: Miro Board’da bulunan backlog kısmı için düzenleme yapı
  
 • **Ürün durumu:** Ekran Görüntüleri:
 
-<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint2_Documents/product1.PNG" width="150" height="600">
-<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint2_Documents/product2.PNG" width="150" height="600">
-<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint2_Documents/product_base.PNG" width="150" height="600">
+<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint2_Documents/product1.PNG" width="300" height="600">
+<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint2_Documents/product2.PNG" width="300" height="600">
+<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint2_Documents/product_base.PNG" width="300" height="600">
      
 •**Sprint Review:** 
 
