@@ -138,7 +138,7 @@ Alınan kararlar: Kamera için ayarlamalar yapılmıştır. Karaktere ve oyun i�
 
 •**Ürün durumu: Ekran Görüntüleri:** 
 
-<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint3_Documents/main.jpeg" width="800" height="600">
+<img src="https://raw.githubusercontent.com/berkhanozen/The-100/main/ProjectManagement/Sprint3_Documents/main.jpeg" width="850" height="600">
 
 •**Sprint Review:** 
 
@@ -157,4 +157,4 @@ Oyun ve ekip ismi için logo tasarımları yapıldı. Yeni seviyenin tasarımı 
 
 - Diğer Notlar:
 	- Kullanılan tüm assetler Miro Board’a eklenmiştir. Miro linkinden ulaşılabilir.
-	- Oyunumuzun **Game Design Document**'ini indirmek için: [Game Design Document](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint3_Documents/SpaceBuzz_GDD.pdf?raw=true)
+	- Oyunumuzun **Game Design Document**'ini indirmek için: [Space Buzz GDD](https://github.com/berkhanozen/The-100/blob/main/ProjectManagement/Sprint3_Documents/SpaceBuzz_GDD.pdf?raw=true)
