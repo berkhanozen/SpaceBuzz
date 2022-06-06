@@ -23,7 +23,9 @@ public class Oxygen : MonoBehaviour
     [SerializeField] private CameraShake mainCamera;
 
     public static bool isDamaged=false;
+
     
+
     private void Awake()
     {
         oxygenScript.enabled = false;
