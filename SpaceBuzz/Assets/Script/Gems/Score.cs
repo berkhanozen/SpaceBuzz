@@ -13,9 +13,7 @@ public class Score : MonoBehaviour
     [SerializeField] private TextMeshProUGUI gameOverScoretext;
 
     private GameObject clonePickupEffect; // Clone Particle Destroy
-
     public GameObject pickupEffect; // Pacticle Efect
-
     private GameObject sound;
     private MusicFiles gemCollectingSound;  // Elmas toplama ses efekti
     [SerializeField] private int gemSoundIndex;

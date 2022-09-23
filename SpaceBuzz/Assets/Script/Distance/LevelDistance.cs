@@ -30,91 +30,87 @@ public class LevelDistance : MonoBehaviour
         Idistance++;
         distance.text = Idistance.ToString();
 
-        if (Idistance == 30)
+        if (Idistance == 50) 
         {
             _controller.moveSpeed += 2;
-            _controller.leftRightSpeed += 0.5f;
+            _controller.leftRightSpeed += 0.2f;
         }
 
-        if (Idistance == 80)
+        if (Idistance == 100)
         {
             _controller.moveSpeed += 2;
-            _controller.leftRightSpeed += 0.5f;
+            _controller.leftRightSpeed += 0.2f;
         }
 
-        if (Idistance == 120)
+        if (Idistance == 150)
         {
             _controller.moveSpeed += 2;
-            _controller.leftRightSpeed += 0.5f;
+            _controller.leftRightSpeed += 0.2f;
         }
 
-        if (Idistance == 180)
+        if (Idistance == 200)
         {
-            _controller.leftRightSpeed += 0.5f;
             _controller.moveSpeed += 2;
+            _controller.leftRightSpeed += 0.2f;
         }
 
-        if (Idistance == 240)
+        if (Idistance == 250)
         {
             _controller.moveSpeed += 2;
-            _controller.leftRightSpeed += 0.5f;
+            _controller.leftRightSpeed += 0.2f;
         }
 
-        if (Idistance == 350)
+        if (Idistance == 300)
         {
             _controller.moveSpeed += 2;
-            _controller.leftRightSpeed += 0.5f;
+            _controller.leftRightSpeed += 0.2f;
         }
 
-        if (Idistance == 450)
+        if (Idistance == 400)
         {
             _controller.moveSpeed += 2;
-            _controller.leftRightSpeed += 0.5f;
+            _controller.leftRightSpeed += 0.2f;
         }
 
         if (Idistance == 500)
         {
             _controller.moveSpeed += 2;
-            _controller.leftRightSpeed += 0.5f;
+            _controller.leftRightSpeed += 0.2f;
             if (_questcheck != null)
             {
                 _questcheck.quest1 = true;
                 PlayerPrefs.SetInt("quest1", (_questcheck.quest1 ? 1 : 0));
             }
-            
-
-        }
-
-        if (Idistance == 550)
-        {
-            _controller.moveSpeed += 2;
-            _controller.leftRightSpeed += 0.5f;
         }
 
         if (Idistance == 600)
         {
             _controller.moveSpeed += 2;
-            _controller.leftRightSpeed += 0.5f;
+            _controller.leftRightSpeed += 0.2f;
         }
 
         if (Idistance == 700)
         {
-            _controller.moveSpeed += 1;
-            _controller.leftRightSpeed += 0.5f;
+            _controller.moveSpeed += 2;
+            _controller.leftRightSpeed += 0.2f;
+        }
+
+        if (Idistance == 850)
+        {
+            _controller.moveSpeed += 2;
+            _controller.leftRightSpeed += 0.2f;
         }
 
         if (Idistance == 1000)
         {
             _questcheck.quest2 = true;
             PlayerPrefs.SetInt("quest2", (_questcheck.quest2 ? 1 : 0));
-            _controller.leftRightSpeed += 0.5f;
         }
 
         if (Idistance == 2000)
         {
             _questcheck.quest3 = true;
             PlayerPrefs.SetInt("quest3", (_questcheck.quest3 ? 1 : 0));
-            _controller.leftRightSpeed += 0.5f;
         }
     }
 }
