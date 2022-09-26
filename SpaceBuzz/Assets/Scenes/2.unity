@@ -571,9 +571,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f0a071e22f934845944457497880a11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 18
+  leftRightSpeed: 0.2
   anim: {fileID: 515496277}
-  moveSpeed: 12
-  leftRightSpeed: 4
+  verticalLimit: {x: -1.15, y: 1.15}
 --- !u!54 &249956561
 Rigidbody:
   m_ObjectHideFlags: 0
